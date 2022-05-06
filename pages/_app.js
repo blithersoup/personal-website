@@ -2,9 +2,11 @@ import '../styles/globals.css';
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
+  backgroundColor: "#000",
   fonts: {
-    heading: "JetBrains Mono",
-    body: "JetBrains Mono"
+    heading: "Proxima Sans",
+    body: "JetBrains Mono",
+    color: "#000"
   }
 });
 
