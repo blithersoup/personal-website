@@ -4,7 +4,7 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 const theme = extendTheme({
   backgroundColor: "#000",
   fonts: {
-    heading: "Proxima Sans",
+    heading: "Lato",
     body: "JetBrains Mono",
     color: "#000"
   }

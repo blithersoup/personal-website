@@ -2,14 +2,16 @@ import React, { useEffect, useState, useRef } from "react";
 import anime from "animejs";
 import Head from "next/head";
 import { NameIcon } from "../components/name";
-import { Container, Spacer, Stack, Box, Text, Button } from "@chakra-ui/react";
+import { Container, Spacer, Stack, Box, Text, Button, Heading } from "@chakra-ui/react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useRouter } from "next/router";
 
 
 
 const HomePage = () => {
 
-  
+
   const animation = useRef(null);
 
   const router = useRouter();
@@ -19,14 +21,14 @@ const HomePage = () => {
       targets: "path",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutSine",
-      duration: 3500,
+      duration: 3000,
       direction: "forward",
       loop: "false",
-      
+
     });
   }, []);
 
-  
+
 
   return (
     <>
@@ -35,39 +37,55 @@ const HomePage = () => {
         <title>Grady Arnold</title>
         <meta name="theme-color" content="#FFF" />
       </Head>
-      <Stack direction="column" height="100vh" backgroundColor="black">
-        <Spacer />
-          <Stack direction="row" w="100%">
-            <Box w="3%" />
-            <Box w="65%" onClick={() => animation.current.restart()}>
-              <NameIcon width="100%" height="100%" />
-            </Box>
-            <Spacer />
-          </Stack>
+      <Stack direction="column" height="100vh" backgroundColor="black" id="homepage">
+        <Box h="35%" />
+        <Stack direction="row" w="100%">
+          <Box w="3%" />
+          <Box w="65%" onClick={() => animation.current.restart()}>
+            <NameIcon width="100%" height="100%" />
+          </Box>
+          <Spacer />
+        </Stack>
         <Box h="0.5%" />
         <Stack direction="row">
           <Box w="3%" />
-          <Text maxW="100%" fontSize="xl">
-            Long sentence title more text
-          </Text>
+          <Heading as="h4" fontSize="xl" color="white">
+            Software Engineer, Student
+          </Heading>
         </Stack>
         <Stack direction="row">
           <Box w='4%' />
           <Stack pt="25" direction="column" justify="left">
-            <Button textAlign="left" maxW="2xs" onClick={() => {router.push("https://www.linkedin.com/in/gradyarnold/")}} colorScheme="linkedin"  variant="outline" justify="left" align="left">
+            <Button textAlign="left" size="md" onClick={() => { router.push("https://www.linkedin.com/in/gradyarnold/") }} colorScheme="linkedin" variant="outline" justify="left" align="left" rightIcon={<FaLinkedin />}>
               LinkedIn
             </Button>
-            <Button textAlign="left" maxW="2xs"  onClick={() => {router.push("https://github.com/blithersoup")}} colorScheme="gray" variant="outline" justify="left" align="left" >
+            <Button textAlign="left" size="md" onClick={() => { router.push("https://github.com/blithersoup") }} colorScheme="teal" variant="outline" justify="left" align="left" rightIcon={<FaGithub />}>
               GitHub
             </Button>
-            <Button textAlign="left" maxW="2xs"  onClick={() => {router.push("https://github.com/blithersoup")}} colorScheme="whiteAlpha" variant="outline" justify="left" align="left" >
+            <Button textAlign="left" size="md" onClick={() => { router.push("https://github.com/blithersoup") }} colorScheme="green" variant="outline" justify="left" align="left" >
               Resume
             </Button>
           </Stack>
           <Spacer />
         </Stack>
-
-        
+        <Spacer />
+        <Heading color="white" align="center" as="h5">
+          <IoIosArrowDown onClick={() => { router.push("/#experience") }} />
+        </Heading>
+        <Box h="0.5%" />
+      </Stack>
+      <Stack direction="column" height="100vh" id="experience">
+        <Heading color="black" align="center" as="h5">
+          <IoIosArrowUp onClick={() => { router.push("/#homepage") }} />
+        </Heading>
+        <Box h="3%" />
+        <Heading as="h6">
+          Projects
+        </Heading>
+        <Heading as="h2" >
+          Project 1
+        </Heading>
+        <div>hello</div>
         <Spacer />
       </Stack>
 
