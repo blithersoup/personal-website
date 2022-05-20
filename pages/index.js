@@ -82,7 +82,7 @@ const HomePage = () => {
               onClick={() => {
                 router.push("https://github.com/blithersoup");
               }}
-              colorScheme="teal"
+              colorScheme="orange"
               variant="outline"
               justify="left"
               align="left"
@@ -96,7 +96,7 @@ const HomePage = () => {
               onClick={() => {
                 router.push("/resume.pdf");
               }}
-              colorScheme="green"
+              colorScheme="whatsapp"
               variant="outline"
               justify="left"
               align="left"

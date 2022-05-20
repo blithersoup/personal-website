@@ -9,7 +9,7 @@ export const NameIcon = (props) => (
       strokeLinecap="round"
       fontSize="9pt"
       stroke="#FFF"
-      strokeWidth="0.5mm"
+      strokeWidth="0.65mm"
       fill="none"
     >
       <path
