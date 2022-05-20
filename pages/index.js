@@ -7,13 +7,13 @@ import {
   Spacer,
   Stack,
   Box,
-  Text,
+  Flex,
   Button,
   Heading,
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const HomePage = () => {
   const animation = useRef(null);
@@ -107,25 +107,32 @@ const HomePage = () => {
           <Spacer />
         </Stack>
         <Spacer />
-        <Box align="center" size="xl" textColor="white" fontSize="5xl">
-          <IoIosArrowDown
+        <Stack direction="row">
+          <Spacer />
+          <Box
             onClick={() => {
-              router.push("/#experience");
+              router.push("#experience");
             }}
-          />
-        </Box>
-        <Box h="0.5%" />
+          >
+            <Image src="/downArrow.svg" alt="down arrow" height={50} width={50} />
+          </Box>
+          <Spacer />
+        </Stack>
       </Stack>
       <Stack direction="column" height="100vh" id="experience">
-        <Box textColor="black" align="center" size="xl" fontSize="5xl">
-          <IoIosArrowUp
+      <Stack direction="row">
+          <Spacer />
+          <Box
             onClick={() => {
-              router.push("/#homepage");
+              router.push("#homepage");
             }}
-          />
-        </Box>
+          >
+            <Image src="/upArrow.svg" alt="up arrow" height={50} width={50} />
+          </Box>
+          <Spacer />
+        </Stack>
         <Box h="3%" />
-        <Heading as="h6">Projects</Heading>
+        <Heading as="h1">Projects</Heading>
         <Heading as="h2">Project 1</Heading>
         <div>hello</div>
         <Spacer />
