@@ -1,6 +1,10 @@
-export const NameIcon = (props) => (
+import React, { FC } from "react";
+
+const NameIcon: FC = () => {
+  return(
   <svg
-    {...props}
+    width="100%"
+    height="100%"
     viewBox="0 0 1207.441 158.241"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -58,4 +62,6 @@ export const NameIcon = (props) => (
       />
     </g>
   </svg>
-);
+  )};
+
+export default NameIcon;

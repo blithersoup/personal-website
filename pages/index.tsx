@@ -1,33 +1,77 @@
-import React, { useEffect, useState, useRef } from "react";
-import anime from "animejs";
+import React, { useEffect, useRef } from "react";
+import anime, { AnimeInstance } from "animejs";
 import Head from "next/head";
-import { NameIcon } from "../components/name";
+import NameIcon from "../components/name";
 import {
-  Container,
   Spacer,
   Stack,
   Box,
-  Flex,
   Button,
   Heading,
+  Text,
+  Link,
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
+interface refProps {
+  now: AnimeInstance | null;
+}
+
+interface projectProps {
+  name: string;
+  languages: string;
+  frameworks: string;
+  description: string;
+  source: string;
+}
+
+const Project = ({
+  name,
+  languages,
+  frameworks,
+  description,
+  source,
+}: projectProps) => {
+  return (
+    <Stack>
+      <Stack direction="row" pt="2">
+        <Heading as="h2" fontSize="xs" pl="5">
+          {name}-
+        </Heading>
+
+        <Text fontSize="xs">
+          [
+          <Link href={source} color="blue" isExternal>
+            source
+          </Link>
+          ]
+        </Text>
+      </Stack>
+
+      <Stack pl="10" direction="column">
+        <Text fontSize="xs">{languages}</Text>
+        <Text fontSize="xs">{frameworks}</Text>
+      </Stack>
+    </Stack>
+  );
+};
+
 const HomePage = () => {
-  const animation = useRef(null);
+  const start: refProps = { now: null };
+  const animation = useRef(start);
 
   const router = useRouter();
 
   useEffect(() => {
-    animation.current = anime({
+    animation.current.now = anime({
       targets: "path",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutSine",
       duration: 3000,
       direction: "forward",
-      loop: "false",
+      loop: false,
     });
   }, []);
 
@@ -47,8 +91,11 @@ const HomePage = () => {
         <Box h="35%" />
         <Stack direction="row" w="100%">
           <Box w="3%" />
-          <Box w={["95%", "65%"]} onClick={() => animation.current.restart()}>
-            <NameIcon width="100%" height="100%" />
+          <Box
+            w={["95%", "65%"]}
+            onClick={() => animation.current.now?.restart()}
+          >
+            <NameIcon />
           </Box>
           <Spacer />
         </Stack>
@@ -70,8 +117,6 @@ const HomePage = () => {
               }}
               colorScheme="linkedin"
               variant="outline"
-              justify="left"
-              align="left"
               rightIcon={<FaLinkedin />}
             >
               LinkedIn
@@ -84,8 +129,6 @@ const HomePage = () => {
               }}
               colorScheme="orange"
               variant="outline"
-              justify="left"
-              align="left"
               rightIcon={<FaGithub />}
             >
               GitHub
@@ -98,8 +141,6 @@ const HomePage = () => {
               }}
               colorScheme="whatsapp"
               variant="outline"
-              justify="left"
-              align="left"
             >
               Resume
             </Button>
@@ -114,13 +155,18 @@ const HomePage = () => {
               router.push("#experience");
             }}
           >
-            <Image src="/downArrow.svg" alt="down arrow" height={50} width={50} />
+            <Image
+              src="/downArrow.svg"
+              alt="down arrow"
+              height={50}
+              width={50}
+            />
           </Box>
           <Spacer />
         </Stack>
       </Stack>
       <Stack direction="column" height="100vh" id="experience">
-      <Stack direction="row">
+        <Stack direction="row">
           <Spacer />
           <Box
             onClick={() => {
@@ -132,10 +178,47 @@ const HomePage = () => {
           <Spacer />
         </Stack>
         <Box h="3%" />
-        <Heading as="h1">Projects</Heading>
-        <Heading as="h2">Project 1</Heading>
-        <div>hello</div>
-        <Spacer />
+        <Heading as="h1" fontSize="lg" pl="3">
+          Interests
+        </Heading>
+        <Stack direction="column" pl="35">
+          <Text fontSize="xs">-Backend Development</Text>
+          <Text fontSize="xs">-Unix/Linux</Text>
+          <Text fontSize="xs">-FOSS</Text>
+        </Stack>
+        <Heading as="h1" fontSize="lg" pl="3">
+          Work Experience
+        </Heading>
+        <Text pl="35" pt="2" fontSize="sm">
+          UnitedHealth Group- Software Engineering Intern
+        </Text>
+        <Text pl="42" fontSize="xs">
+          Summer 2022
+        </Text>
+        <Heading as="h1" fontSize="lg" pl="3" pt="2">
+          Projects
+        </Heading>
+        <Project
+          name="Purdue 3D Printed Prosthetics Club Website"
+          languages="-Typescript, SQL"
+          frameworks="-React, Next.js, Clerk, PostgreSQL"
+          description="Main feature is "
+          source="https://github.com/blithersoup/purdueprosthetics-3dprint-site"
+        />
+        <Project
+          name="Twitter/News Sentiment Analysis Web App"
+          languages="-Java, JavaScript"
+          frameworks="-Spring Boot, React, Next.js"
+          description="description"
+          source="https://github.com/blithersoup/spring-project"
+        />
+        <Project
+          name="ELO Ranking League App"
+          languages="-Python, JavaScript"
+          frameworks="-Flask, SQLAlchemy, PostgreSQL, React Native"
+          description="description"
+          source="https://github.com/blithersoup/elo-server"
+        />
       </Stack>
     </>
   );
