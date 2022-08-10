@@ -31,7 +31,6 @@ const Project = ({
   name,
   languages,
   frameworks,
-  description,
   source,
 }: projectProps) => {
   return (
@@ -69,7 +68,7 @@ const HomePage = () => {
       targets: "path",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutSine",
-      duration: 3000,
+      duration: 1800,
       direction: "forward",
       loop: false,
     });
