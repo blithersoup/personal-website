@@ -36,7 +36,7 @@ const parseItem = (item: any) => {
     case "image":
       return (
         <Box boxSize="md" position="relative">
-          <Image src={item.body} alt="Loading image" objectFit="cover" {...{layout: "fill"}}/>
+          <Image src={item.body} alt="Loading image" objectFit="cover" {...{layout: "fill"}} priority={true}/>
         </Box>
       )
     case "row":

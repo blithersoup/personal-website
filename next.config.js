@@ -24,5 +24,8 @@ module.exports = {
       "https://lh3.googleusercontent.com"
     ],
   },
-  basePath: ""
+  basePath: "",
+  images: {
+    minimumCacheTTL: 31536000,
+  }
 } 
