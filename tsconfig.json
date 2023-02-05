@@ -11,10 +11,17 @@
       "esModuleInterop": true,
       "module": "esnext",
       "moduleResolution": "node",
+      "preserveConstEnums": true,
       "resolveJsonModule": true,
       "isolatedModules": true,
       "jsx": "preserve",
       "incremental": true,
+      "baseUrl": ".",
+      "paths": {
+        "@blogs/*": ["blogs/*"],
+        "@blogs": ["blogs"]
+
+      }
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]  

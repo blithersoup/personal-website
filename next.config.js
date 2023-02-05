@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+module.exports = {
   reactStrictMode: true,
   i18n: {
     locales: ["en"],
@@ -16,7 +17,12 @@ const nextConfig = {
       },
     });
     return config;
-  }
-}
-
-module.exports = nextConfig
+  },
+  images: {
+    domains: [
+      "lh3.googleusercontent.com",
+      "https://lh3.googleusercontent.com"
+    ],
+  },
+  basePath: ""
+} 
