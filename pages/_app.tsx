@@ -4,8 +4,8 @@ import { AppProps } from "next/app";
 const theme = extendTheme({
   backgroundColor: "#000",
   fonts: {
-    heading: "Lato",
-    body: "JetBrains Mono",
+    heading: "Source Code Pro Mono",
+    body: "Merriweather",
     color: "#000"
   }
 });
