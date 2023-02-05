@@ -1,5 +1,6 @@
 import type { GetStaticProps } from "next"
-import { Text, Heading, Stack, Box, Spacer, Card, Tag, CardHeader, CardFooter, CardBody, useCheckbox, CheckboxState, chakra, Flex, useCheckboxGroup, Checkbox } from "@chakra-ui/react"
+import { Text, Heading, Stack, Spacer, Card, Tag, CardHeader, CardFooter, CardBody, useCheckboxGroup, Checkbox } from "@chakra-ui/react"
+import { readdirSync } from "fs"
 import { FC } from "react"
 
 export type item = {
@@ -88,7 +89,16 @@ export default BlogHomepage
 
 
 export const getStaticProps: GetStaticProps = async () => {
-  const blogs = await fetch(`${process.env.BASE_URL}/api/getBlogs`).then((res) => res.json())
+  const dir = readdirSync("blogs/")
+  let blogs: any = []
+  
+  for (const name of dir) {
+    let x = await import(`blogs/${name}`).then((b) => b.default)
+    blogs.push(x);
+  }
+
+  blogs.sort((a: any, b: any) => { a.number - b.number })
+
   return {
     props: {
       blogs

@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useRouter } from "next/router";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 interface refProps {
   now: AnimeInstance | null;

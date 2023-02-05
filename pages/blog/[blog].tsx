@@ -1,5 +1,5 @@
 import { Text, Heading, Stack, Box, Spacer, Center, chakra } from "@chakra-ui/react"
-import NextImage from "next/image";
+import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
 
@@ -36,7 +36,7 @@ const parseItem = (item: any) => {
     case "image":
       return (
         <Box boxSize="md" position="relative">
-          <Image src={item.body} alt="Loading image" style={{objectFit:"cover"}} {...{layout: "fill"}}/>
+          <Image src={item.body} alt="Loading image" objectFit="cover" {...{layout: "fill"}}/>
         </Box>
       )
     case "row":
