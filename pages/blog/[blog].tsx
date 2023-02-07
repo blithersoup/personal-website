@@ -3,6 +3,7 @@ import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
 
+
 const Image = chakra(NextImage, {
   shouldForwardProp: (prop) =>
     [
@@ -21,6 +22,7 @@ const Image = chakra(NextImage, {
     ].includes(prop),
 });
 
+
 const parseItem = (item: any) => {
   switch (item.type) {
     case "text":
@@ -36,7 +38,11 @@ const parseItem = (item: any) => {
     case "image":
       return (
         <Box boxSize="md" position="relative">
-          <Image src={item.body} alt="Loading image" objectFit="cover" {...{layout: "fill"}} priority={true}/>
+          <Image src={`https://${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
+            alt="Loading image"
+            objectFit="cover"
+            {...{ layout: "fill" }}
+            priority={true} />
         </Box>
       )
     case "row":
@@ -79,17 +85,17 @@ const parseBlog = (json: any) => {
   )
 }
 
-const Page = ({ data }: { data: any}) => {
+const Page = ({ data }: { data: any }) => {
   return parseBlog(data);
 }
 
 export default Page;
 
-export const getStaticProps: GetStaticProps = async ({ params } : any) => {
+export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const { blog } = params;
 
   const data = await import(`blogs/${blog}.json`, { assert: { type: "json" } }).then((res) => res.default)
-  
+
   return {
     props: {
       data

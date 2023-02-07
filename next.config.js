@@ -20,12 +20,8 @@ module.exports = {
   },
   images: {
     domains: [
-      "lh3.googleusercontent.com",
-      "https://lh3.googleusercontent.com"
+      process.env.NEXT_PUBLIC_IMG_HOST,
     ],
   },
   basePath: "",
-  images: {
-    minimumCacheTTL: 31536000,
-  }
 } 
