@@ -2,6 +2,7 @@ import { Text, Heading, Stack, Box, Spacer, Center, chakra } from "@chakra-ui/re
 import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
+import Head from "next/head";
 
 
 const Image = chakra(NextImage, {
@@ -71,7 +72,11 @@ const parseItem = (item: any) => {
 const parseBlog = (json: any) => {
   let i = 0;
   return (
-    <>
+    <> 
+      <Head>
+        <title>{json.name}</title>
+        <meta name="description" content={json.title} /> 
+      </Head>
       <Heading size="2xl" textAlign="center" pt="5">
         {json.name}
       </Heading>
