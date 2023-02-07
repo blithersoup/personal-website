@@ -3,6 +3,7 @@ import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
+import type { blog }  from "../blog"
 
 
 const Image = chakra(NextImage, {
@@ -51,7 +52,6 @@ const parseItem = (item: any) => {
       return (
         <>
           <Center maxW="100%">
-
             <Stack spacing="25px" direction={["column", "row"]}>
               {item.body.map((it: any) => <div key={i++}>{parseItem(it)}</div>)}
             </Stack>
@@ -69,13 +69,13 @@ const parseItem = (item: any) => {
   }
 }
 
-const parseBlog = (json: any) => {
+const parseBlog = (json: blog) => {
   let i = 0;
   return (
     <> 
       <Head>
         <title>{json.name}</title>
-        <meta name="description" content={json.title} /> 
+        <meta name="description" content={json.name} /> 
       </Head>
       <Heading size="2xl" textAlign="center" pt="5">
         {json.name}
@@ -90,7 +90,7 @@ const parseBlog = (json: any) => {
   )
 }
 
-const Page = ({ data }: { data: any }) => {
+const Page = ({ data }: { data: blog }) => {
   return parseBlog(data);
 }
 
