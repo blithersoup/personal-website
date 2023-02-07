@@ -9,18 +9,10 @@ import type { blog }  from "../blog"
 const Image = chakra(NextImage, {
   shouldForwardProp: (prop) =>
     [
-      "width",
-      "height",
       "src",
       "alt",
-      "quality",
-      "placeholder",
-      "blurDataURL",
-      "loader",
-      "layout",
-      "priority",
       "objectFit",
-      "style"
+      "layout"
     ].includes(prop),
 });
 
@@ -44,7 +36,7 @@ const parseItem = (item: any) => {
             alt="Loading image"
             objectFit="cover"
             {...{ layout: "fill" }}
-            priority={true} />
+            />
         </Box>
       )
     case "row":
