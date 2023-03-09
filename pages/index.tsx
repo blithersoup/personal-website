@@ -182,7 +182,7 @@ const HomePage = () => {
         </Heading>
         <Stack direction="column" pl="35">
           <Text fontSize="xs">-Backend Development</Text>
-          <Text fontSize="xs">-Unix/Linux</Text>
+          <Text fontSize="xs">-GNU/Linux</Text>
           <Text fontSize="xs">-FOSS</Text>
         </Stack>
         <Heading as="h1" fontSize="lg" pl="3">
