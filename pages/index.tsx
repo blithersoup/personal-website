@@ -213,8 +213,8 @@ const HomePage = () => {
         />
         <Project
           name="ELO Ranking League App"
-          languages="-Python, JavaScript"
-          frameworks="-Flask, SQLAlchemy, PostgreSQL, React Native"
+          languages="-Python, TypeScript"
+          frameworks="-Flask, SQLAlchemy, PostgreSQL, Next.js"
           description="description"
           source="https://github.com/blithersoup/elo-server"
         />
