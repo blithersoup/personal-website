@@ -23,7 +23,7 @@ const parseItem = (item: any) => {
       return (
         <Stack direction="row">
           <Spacer />
-          <Text fontSize="lg" pt="5" pl="5" pr="5" width="80%">
+          <Text fontSize="lg" pt="5" width="80%">
             {item.body}
           </Text>
           <Spacer />
@@ -45,7 +45,7 @@ const parseItem = (item: any) => {
             <Spacer />
           </Stack>
           <Center maxW="100%" pt="3">
-            <Text fontSize="md">{item.caption}</Text>
+            <Text fontSize="md" pl="5" pr="5">{item.caption}</Text>
           </Center>
         </>
       )
@@ -59,18 +59,26 @@ const parseItem = (item: any) => {
             </Stack>
           </Center>
 
-          <Stack direction="row" w="100%" pt="5">
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">
+              {item.caption}
+            </Text>
+          </Center>
+        </>
+      )
+  }
+}
+
+
+/*
+<Stack direction="row" w="100%" pt="5">
             <Spacer />
             <Text fontSize="md">
               {item.caption}
             </Text>
             <Spacer />
           </Stack>
-        </>
-      )
-  }
-}
-
+*/
 const parseBlog = (json: Blog) => {
   let i = 0;
   return (
