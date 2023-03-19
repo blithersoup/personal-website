@@ -32,7 +32,7 @@ const parseItem = (item: any) => {
     case "image":
       return (
         <Box boxSize="md" position="relative" display="block">
-          <Image src={`https://${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
+          <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
             alt="Loading image"
             objectFit="cover"
             {...{ layout: "fill" }}
