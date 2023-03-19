@@ -3,21 +3,22 @@ import { Text, Heading, Stack, Spacer, Card, Tag, CardHeader, CardFooter, CardBo
 import { readdirSync } from "fs"
 import { FC } from "react"
 
-export type item = {
+export type Item = {
   name: string,
   caption: string | null,
-  body: string | item
+  body: any,
+  type: string
 }
-export type blog = {
+export type Blog = {
   name: string,
   date: string,
   tags: string[],
   id: number,
-  body: item[],
+  body: Item[],
   link: string
 }
 
-const BlogItem: FC<{ blog: blog }> = ({ blog }) => {
+const BlogItem: FC<{ blog: Blog }> = ({ blog }) => {
   return (
     <Card size="sm" variant="outline" _hover={{ shadow: "lg" }} as="a" href={`/blog/${blog.link}`}>
       <CardHeader>
@@ -27,7 +28,7 @@ const BlogItem: FC<{ blog: blog }> = ({ blog }) => {
       </CardHeader>
       <CardBody>
         <Text>
-          {blog.name}
+          {blog.date}
         </Text>
       </CardBody>
       <CardFooter>
@@ -41,7 +42,7 @@ const BlogItem: FC<{ blog: blog }> = ({ blog }) => {
 }
 
 
-const BlogHomepage: FC<{ blogs: blog[] }> = ({ blogs }) => {
+const BlogHomepage: FC<{ blogs: Blog[] }> = ({ blogs }) => {
   let tags: Set<string> = new Set<string>()
   for (const blog of blogs) {
     blog.tags.forEach(tags.add, tags)
@@ -64,8 +65,8 @@ const BlogHomepage: FC<{ blogs: blog[] }> = ({ blogs }) => {
       <Stack direction={["column-reverse", "row"]} pt="7" pl="5" pr="5">
         <Stack direction="column" w={["100%", "75%"]} spacing="5" pr="10">
           {blogs.filter((blog) =>
-            value.every((checked) => blog.tags.includes(checked.toString()) )
-          ).map((item: blog) => <BlogItem blog={item} key={item.id} />)}
+            value.every((checked) => blog.tags.includes(checked.toString()))
+          ).map((item: Blog) => <BlogItem blog={item} key={item.id} />)}
         </Stack>
         <Card size="md">
           <CardHeader>
@@ -91,7 +92,7 @@ export default BlogHomepage
 export const getStaticProps: GetStaticProps = async () => {
   const dir = readdirSync("blogs/")
   let blogs: any = []
-  
+
   for (const name of dir) {
     let x = await import(`blogs/${name}`).then((b) => b.default)
     blogs.push(x);

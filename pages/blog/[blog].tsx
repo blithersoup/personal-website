@@ -3,7 +3,7 @@ import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
-import type { blog }  from "../blog"
+import type { Blog, Item } from "../blog"
 
 
 const Image = chakra(NextImage, {
@@ -31,13 +31,23 @@ const parseItem = (item: any) => {
       )
     case "image":
       return (
-        <Box boxSize="md" position="relative" display="block">
-          <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
-            alt="Loading image"
-            objectFit="cover"
-            {...{ layout: "fill" }}
-            />
-        </Box>
+        <>
+          <Stack direction="row" w="100%" pt="5">
+            <Spacer />
+            <Box boxSize="md" position="relative" display="block">
+              <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+              <Text fontSize="md">{item.caption}</Text>
+            </Box>
+            <Spacer />
+          </Stack>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md">{item.caption}</Text>
+          </Center>
+        </>
       )
     case "row":
       let i = 0;
@@ -61,13 +71,13 @@ const parseItem = (item: any) => {
   }
 }
 
-const parseBlog = (json: blog) => {
+const parseBlog = (json: Blog) => {
   let i = 0;
   return (
-    <> 
+    <>
       <Head>
         <title>{json.name}</title>
-        <meta name="description" content={json.name} /> 
+        <meta name="description" content={json.name} />
       </Head>
       <Heading size="2xl" textAlign="center" pt="5">
         {json.name}
@@ -82,7 +92,7 @@ const parseBlog = (json: blog) => {
   )
 }
 
-const Page = ({ data }: { data: blog }) => {
+const Page = ({ data }: { data: Blog }) => {
   return parseBlog(data);
 }
 
