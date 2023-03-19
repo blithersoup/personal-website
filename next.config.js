@@ -20,7 +20,7 @@ module.exports = {
   },
   images: {
     domains: [
-      process.env.NEXT_PUBLIC_IMG_HOST,
+      process.env.NEXT_PUBLIC_IMG_HOST.substring(8),
     ],
   },
   basePath: "",
