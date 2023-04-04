@@ -1,9 +1,9 @@
-import { Text, Heading, Stack, Box, Spacer, Center, chakra } from "@chakra-ui/react"
+import { Text, Heading, Stack, Box, Center, chakra } from "@chakra-ui/react"
 import NextImage from "next/legacy/image";
 import { readdirSync } from "fs";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
-import type { Blog, Item } from "../blog"
+import type { Blog } from "../blog"
 
 
 const Image = chakra(NextImage, {
@@ -21,34 +21,34 @@ const parseItem = (item: any) => {
   switch (item.type) {
     case "text":
       return (
-        <Stack direction="row">
-          <Spacer />
+        <Center maxW="100%">
           <Text fontSize="lg" pt="5" width="80%">
             {item.body}
           </Text>
-          <Spacer />
-        </Stack>
+        </Center>
       )
     case "image":
       return (
         <>
-          <Stack direction="row" w="100%" pt="5">
-            <Spacer />
+          <Center maxW="100%" pt="5">
             <Box boxSize="md" position="relative" display="block">
               <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
                 alt="Loading image"
                 objectFit="cover"
                 {...{ layout: "fill" }}
               />
-              <Text fontSize="md">{item.caption}</Text>
+              <Text fontSize="md">
+                {item.caption}
+              </Text>
             </Box>
-            <Spacer />
-          </Stack>
+          </Center>
           <Center maxW="100%" pt="3">
             <Text fontSize="md" pl="5" pr="5">{item.caption}</Text>
           </Center>
         </>
       )
+    //           <Stack direction="row" w="100%" pt="5">
+
     case "row":
       let i = 0;
       return (
