@@ -65,7 +65,7 @@ const BlogHomepage: FC<{ blogs: Blog[] }> = ({ blogs }) => {
         </Heading>
         <Spacer />
       </Stack>
-      <Stack direction={["column-reverse", "row"]} pt="7" pl="5" pr="5" spacing="7">
+      <Stack direction={["column-reverse", "row"]} pt="7" pl="5" pr="5" pb="10" spacing="7">
         <Stack direction="column" w={["100%", "75%"]} spacing="5">
           {blogs.filter((blog) =>
             value.every((checked) => blog.tags.includes(checked.toString()))
