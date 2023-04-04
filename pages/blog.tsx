@@ -55,6 +55,9 @@ const BlogHomepage: FC<{ blogs: Blog[] }> = ({ blogs }) => {
 
   return (
     <>
+      <meta name="description" content="Here is my blog" />
+      <title>Blog</title>
+      <meta name="theme-color" content="#FFF" />
       <Stack direction="row" pt="7">
         <Spacer />
         <Heading size="2xl">

@@ -86,6 +86,7 @@ const parseBlog = (json: Blog) => {
       <Head>
         <title>{json.name}</title>
         <meta name="description" content={json.name} />
+        <meta name="theme-color" content="#228B22" />
       </Head>
       <Heading size="2xl" textAlign="center" pt="5">
         {json.name}
