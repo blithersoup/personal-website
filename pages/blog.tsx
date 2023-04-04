@@ -57,7 +57,7 @@ const BlogHomepage: FC<{ blogs: Blog[] }> = ({ blogs }) => {
     <>
       <meta name="description" content="Here is my blog" />
       <title>Blog</title>
-      <meta name="theme-color" content="#FFF" />
+      <meta name="theme-color" content="#228B22" />
       <Stack direction="row" pt="7">
         <Spacer />
         <Heading size="2xl">
@@ -65,8 +65,8 @@ const BlogHomepage: FC<{ blogs: Blog[] }> = ({ blogs }) => {
         </Heading>
         <Spacer />
       </Stack>
-      <Stack direction={["column-reverse", "row"]} pt="7" pl="5" pr="5">
-        <Stack direction="column" w={["100%", "75%"]} spacing="5" pr="10">
+      <Stack direction={["column-reverse", "row"]} pt="7" pl="5" pr="5" spacing="7">
+        <Stack direction="column" w={["100%", "75%"]} spacing="5">
           {blogs.filter((blog) =>
             value.every((checked) => blog.tags.includes(checked.toString()))
           ).map((item: Blog) => <BlogItem blog={item} key={item.id} />)}
@@ -101,7 +101,7 @@ export const getStaticProps: GetStaticProps = async () => {
     blogs.push(x);
   }
 
-  blogs.sort((a: any, b: any) => { a.number - b.number })
+  blogs.sort((a: any, b: any) => { return b.id - a.id })
 
   return {
     props: {
