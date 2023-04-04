@@ -43,7 +43,7 @@ I wrote the blog generation from scratch; below is an overview of how it works.
 
 The JSON itself is of the format 
 
-```json
+```typescript
 {
   name: string,
   date: string,
