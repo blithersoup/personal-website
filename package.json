@@ -13,14 +13,10 @@
     "@types/react": "^17.0.45",
     "@vercel/analytics": "^0.1.8",
     "animejs": "^3.2.1",
-    "fs": "^0.0.1-security",
-    "import-assertions": "^0.0.4",
     "next": "^13.1.6",
-    "next-absolute-url": "^1.2.2",
     "react": "^18.1.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.3.1",
-    "sharp": "^0.31.3"
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@types/animejs": "^3.1.4",
@@ -28,10 +24,5 @@
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
     "typescript": "^4.7.2"
-  },
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false
   }
 }
