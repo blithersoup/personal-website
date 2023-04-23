@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import anime, { AnimeInstance } from "animejs";
 import Head from "next/head";
 import NameIcon from "../components/name";
@@ -9,15 +9,10 @@ import {
   Button,
   Heading,
   Text,
-  Link,
+  Link
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { useRouter } from "next/router";
 import Image from "next/legacy/image";
-
-interface refProps {
-  now: AnimeInstance | null;
-}
 
 interface projectProps {
   name: string;
@@ -36,11 +31,11 @@ const Project = ({
   return (
     <Stack>
       <Stack direction="row" pt="2">
-        <Heading as="h2" fontSize="xs" pl="5">
+        <Heading as="h2" size="md" pl="5">
           {name}-
         </Heading>
 
-        <Text fontSize="xs">
+        <Text fontSize="lg">
           [
           <Link href={source} color="blue" isExternal>
             source
@@ -50,28 +45,29 @@ const Project = ({
       </Stack>
 
       <Stack pl="10" direction="column">
-        <Text fontSize="xs">{languages}</Text>
-        <Text fontSize="xs">{frameworks}</Text>
+        <Text fontSize="md">{languages}</Text>
+        <Text fontSize="md">{frameworks}</Text>
       </Stack>
     </Stack>
   );
 };
 
 const HomePage = () => {
-  const start: refProps = { now: null };
-  const animation = useRef(start);
 
-  const router = useRouter();
-
+  const [animation, setAnimation] = useState<AnimeInstance|null>(null);
+  
+  
   useEffect(() => {
-    animation.current.now = anime({
-      targets: "path",
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: "easeInOutSine",
-      duration: 1800,
-      direction: "forward",
-      loop: false,
-    });
+    setAnimation( 
+      anime({
+        targets: "path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutSine",
+        duration: 1800,
+        direction: "forward",
+        loop: false,
+      })
+    );
   }, []);
 
   return (
@@ -92,7 +88,7 @@ const HomePage = () => {
           <Box w="3%" />
           <Box
             w={["95%", "65%"]}
-            onClick={() => animation.current.now?.restart()}
+            onClick={() => animation?.restart()}
           >
             <NameIcon />
           </Box>
@@ -101,7 +97,7 @@ const HomePage = () => {
         <Box h="0.5%" />
         <Stack direction="row">
           <Box w="3%" />
-          <Heading as="h4" fontSize="xl" color="white">
+          <Heading as="h4" size="xl" color="white" pt="5">
             Software Engineer, Student
           </Heading>
         </Stack>
@@ -111,21 +107,8 @@ const HomePage = () => {
             <Button
               textAlign="left"
               size="md"
-              onClick={() => {
-                router.push("https://www.linkedin.com/in/gradyarnold/");
-              }}
-              colorScheme="linkedin"
-              variant="outline"
-              rightIcon={<FaLinkedin />}
-            >
-              LinkedIn
-            </Button>
-            <Button
-              textAlign="left"
-              size="md"
-              onClick={() => {
-                router.push("https://github.com/blithersoup");
-              }}
+              as="a"
+              href="https://github.com/blithersoup"
               colorScheme="orange"
               variant="outline"
               rightIcon={<FaGithub />}
@@ -135,13 +118,23 @@ const HomePage = () => {
             <Button
               textAlign="left"
               size="md"
-              onClick={() => {
-                router.push("/resume.pdf");
-              }}
+              as="a"
+              href="/resume.pdf"
               colorScheme="whatsapp"
               variant="outline"
             >
               Resume
+            </Button>
+            <Button
+              textAlign="left"
+              size="md"
+              as="a"
+              href="https://www.linkedin.com/in/gradyarnold/"
+              colorScheme="linkedin"
+              variant="outline"
+              rightIcon={<FaLinkedin />}
+            >
+              LinkedIn
             </Button>
           </Stack>
           <Spacer />
@@ -150,9 +143,8 @@ const HomePage = () => {
         <Stack direction="row">
           <Spacer />
           <Box
-            onClick={() => {
-              router.push("#experience");
-            }}
+            as="a"
+            href="#experience"
           >
             <Image
               src="/downArrow.svg"
@@ -168,33 +160,32 @@ const HomePage = () => {
         <Stack direction="row">
           <Spacer />
           <Box
-            onClick={() => {
-              router.push("#homepage");
-            }}
+            as="a"
+            href="#homepage"
           >
             <Image src="/upArrow.svg" alt="up arrow" height={50} width={50} />
           </Box>
           <Spacer />
         </Stack>
         <Box h="3%" />
-        <Heading as="h1" fontSize="lg" pl="3">
+        <Heading as="h1" size="lg" pl="3">
           Interests
         </Heading>
         <Stack direction="column" pl="35">
-          <Text fontSize="xs">-Backend Development</Text>
-          <Text fontSize="xs">-GNU/Linux</Text>
-          <Text fontSize="xs">-FOSS</Text>
+          <Text fontSize="md">-Backend Development</Text>
+          <Text fontSize="md">-GNU/Linux</Text>
+          <Text fontSize="md">-FOSS</Text>
         </Stack>
-        <Heading as="h1" fontSize="lg" pl="3">
+        <Heading as="h1" size="lg" pl="3">
           Work Experience
         </Heading>
-        <Text pl="35" pt="2" fontSize="sm">
+        <Text pl="35" pt="2" fontSize="md">
           UnitedHealth Group- Software Engineering Intern
         </Text>
-        <Text pl="42" fontSize="xs">
+        <Text pl="42" fontSize="sm">
           Summer 2022
         </Text>
-        <Heading as="h1" fontSize="lg" pl="3" pt="2">
+        <Heading as="h1" size="lg" pl="3" pt="2">
           Projects
         </Heading>
         <Project
