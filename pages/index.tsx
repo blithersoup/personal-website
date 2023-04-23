@@ -9,10 +9,10 @@ import {
   Button,
   Heading,
   Text,
+  Link
 } from "@chakra-ui/react";
-// import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Image from "next/legacy/image";
-import Link from "next/link"
 
 interface projectProps {
   name: string;
@@ -37,7 +37,7 @@ const Project = ({
 
         <Text fontSize="lg">
           [
-          <Link href={source} color="blue">
+          <Link href={source} color="blue" isExternal>
             source
           </Link>
           ]
@@ -108,19 +108,10 @@ const HomePage = () => {
               textAlign="left"
               size="md"
               as="a"
-              href="https://www.linkedin.com/in/gradyarnold/"
-              colorScheme="linkedin"
-              variant="outline"
-            >
-              LinkedIn
-            </Button>
-            <Button
-              textAlign="left"
-              size="md"
-              as="a"
               href="https://github.com/blithersoup"
               colorScheme="orange"
               variant="outline"
+              rightIcon={<FaGithub />}
             >
               GitHub
             </Button>
@@ -133,6 +124,17 @@ const HomePage = () => {
               variant="outline"
             >
               Resume
+            </Button>
+            <Button
+              textAlign="left"
+              size="md"
+              as="a"
+              href="https://www.linkedin.com/in/gradyarnold/"
+              colorScheme="linkedin"
+              variant="outline"
+              rightIcon={<FaLinkedin />}
+            >
+              LinkedIn
             </Button>
           </Stack>
           <Spacer />
