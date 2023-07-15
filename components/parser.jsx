@@ -1554,3 +1554,5 @@ module.exports = {
   SyntaxError: peg$SyntaxError,
   parse:       peg$parse
 };
+
+export { peg$parse as parse };
