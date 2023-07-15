@@ -1,0 +1,111 @@
+{
+  "name": "Photos from Weeks 1-4",
+  "date": "February 6, 2023",
+  "tags": [
+    "Study abroad",
+    "photos"
+  ],
+  "id": 0,
+  "link": "first"
+}
+
+# Photos from Weeks 1-4
+
+February 6, 2023
+
+{ My dorm, Prince George's Park Residences
+
+  ![](blog-1/IMG_0032.JPG)
+
+  ![](blog-1/IMG_0031.JPG)
+
+  ![](blog-1/IMG_0021.JPG)
+
+  ![](blog-1/IMG_0035.JPG)
+
+}
+
+{ Kent Ridge at dusk
+
+  ![](blog-1/IMG_0067.JPG)
+
+  ![](blog-1/IMG_0065.JPG)
+
+}
+
+{ Visit to the National Gallery
+
+  ![](blog-1/IMG_0039.JPG)
+
+  ![](blog-1/IMG_0044.JPG)
+
+  ![](blog-1/IMG_0046.JPG)
+
+}
+
+{ Views from the National Gallery roof
+
+  ![](blog-1/IMG_0052.JPG)
+
+  ![](blog-1/IMG_0049.JPG)
+
+  ![](blog-1/IMG_0051.JPG)
+
+}
+
+{ Trip to Saint John's and Lazarus Islands
+
+  ![](blog-1/IMG_0079.JPG)
+
+  ![](blog-1/IMG_0083.JPG)
+
+  ![](blog-1/IMG_0074.JPG)
+
+  ![](blog-1/IMG_0073.JPG)
+
+}
+
+{ Lunar New Year in Chinatown
+
+  ![](blog-1/IMG_0059.JPG)
+
+  ![](blog-1/IMG_0135.JPG)
+
+  ![](blog-1/IMG_0118.JPG)
+
+  ![](blog-1/IMG_0115.JPG)
+
+}
+
+{ Gloomy day at the marina and Gardens by the Bay
+
+  ![](blog-1/IMG_0186.JPG)
+
+  ![](blog-1/IMG_0190.JPG)
+
+  ![](blog-1/IMG_0189.JPG)
+
+}
+
+{ Random pictures
+
+  ![](blog-1/IMG_0009.JPG)
+
+  ![](blog-1/IMG_0167.JPG)
+
+  ![](blog-1/IMG_0182.JPG)
+
+  ![](blog-1/IMG_0192.JPG)
+
+}
+
+{ Some buildings
+
+  ![](blog-1/IMG_0143.JPG)
+
+  ![](blog-1/IMG_0091.JPG)
+
+  ![](blog-1/IMG_0166.JPG)
+
+}
+

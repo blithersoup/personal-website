@@ -93,3 +93,7 @@ As I did not desire to specify or normalize my image sizes, I opted to use the `
 
 The best way I found do fix this issue is to to fill within a Chakra `<Box>`, which will resize to the screen first.  My current solution is simple and could definitely be improved upon, but is drastically more performant than most minor tweaks that I have found.  While easy, I thought I might share this in case anyone viewing this has the same issue.
 
+
+"type": "Image",\n\s+"body": "(.+?)",\n +"caption": "(.+?)"
+
+Somehow, the parser allows me to combine text with nested jsx, so I can concatenate multiple lines of text without needing multiple tags.
