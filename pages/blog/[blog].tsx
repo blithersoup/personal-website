@@ -5,7 +5,7 @@ import { parse } from "../../components/parser"
 
 
 const Page = ({ text }: { text: string }) => {
-  const { style, blog } = parse(text)
+  const { style, blog } = parse(text, {})
 
   return (
     <>

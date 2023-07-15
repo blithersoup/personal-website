@@ -99,7 +99,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   for (const name of dir) {
     const text: string = readFileSync(`blogs/${name}`).toString()
-    const { style } = parse(text)
+    const { style } = parse(text, {})
     blogs.push(style);
   }
 
