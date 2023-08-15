@@ -31,10 +31,10 @@ Row
   = begin:"{" " "? caption:[^\n]* mid:"\n"+ body:([ ]+ Block EOL*)+ end:"}" w:EOL*
     {
       return ( 
-        "<div key='" + shortid.generate() + "'>"
+        "<div>"
         +   "<Center maxW='100%'>"
         +     "<Stack spacing='25px' direction={['column', 'row']}>" 
-        +       body.map((item) => "<div key='" + shortid.generate() + "'>" + item[1] + "</div>").join("")
+        +       body.map((item) => item[1]).join("") 
         +     "</Stack>"
         +   "</Center>"
         +   "<Center maxW='100%' pt='5'>"
@@ -85,7 +85,7 @@ Text
 Bold 
   = '*' body:([^*\n]+) '*'
     { return (
-      "<b key='" + shortid.generate() + "'>"
+        "<b>"
       +   body.join("")
       + "</b>"
       )
@@ -94,7 +94,7 @@ Bold
 Italic
   = '_' body:([^_\n]+) '_'
     { return (
-      "<i key='" + shortid.generate() + "'>"
+        "<i>"
       +   body.join("")
       + "</i>"
       )
@@ -103,7 +103,7 @@ Italic
 Code
 	= '`' body:([^\n`]+) '`'
     { return (
-      "<code key='" + shortid.generate() + "'>"
+        "<code>"
       +   body.join("")
       + "</code>"
       )
@@ -113,7 +113,7 @@ Code
 Link 
 	= "[" head:([^\]\n]+) "](" body:([^)\n]*) ")" " "*
     { return (
-      "<Link href='" + body.join("") + "' color='blue' key='" + shortid.generate() + "' isExternal>"
+      "<Link href='" + body.join("") + "' color='blue' isExternal>"
       +   head.join("") 
       + "</Link>"
       )
@@ -122,19 +122,17 @@ Link
 Image 
 	= "![" caption:([^\]\n]*) "](" src:([^)\n]*) ")" " "* EOL+
     { return ( 
-      "<div key='" + shortid.generate() + "'>"
-      +   "<Center maxW='100%' pt='5'>"
-      +     "<Box boxSize='md' position='relative' display='block' pl='2' pr='2'>"
-      +       "<Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/" + src.join("") 
-      +       "`} alt='Loading image' objectFit='cover' {...{ layout: 'fill' }} />"
-      +     "</Box>"
-      +   "</Center>"
-      +   "<Center maxW='100%' pt='3'>"
-      +     "<Text fontSize='md' pl='5' pr='5'>" 
-      +       caption.join("") 
-      +     "</Text>" 
-      +   "</Center>"
-      + "</div>"
+        "<Center maxW='100%' pt='5'>"
+      +   "<Box boxSize='md' position='relative' display='block' pl='2' pr='2'>"
+      +     "<Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/" + src.join("") 
+      +     "`} alt='Loading image' objectFit='cover' {...{ layout: 'fill' }} />"
+      +   "</Box>"
+      + "</Center>"
+      + "<Center maxW='100%' pt='3'>"
+      +   "<Text fontSize='md' pl='5' pr='5'>" 
+      +     caption.join("") 
+      +   "</Text>" 
+      + "</Center>"
       )  
     }
     
