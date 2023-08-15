@@ -66,6 +66,37 @@ from text and using it in an AnimeJS animation.  For using it within the page, I
 with a type within it to account for undefined behavior on load.  I found this to be better than `useState`, but 
 I am not sure what is the best to use here.  The animation also resets `onClick`.
 
+### A note on image loading
+
+In my `parseItem` function, I wrote the below code to load images:
+
+```typescript
+<Box boxSize="md" position="relative" display="block">
+  <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
+    alt="Loading image"
+    objectFit="cover"
+    {...{ layout: "fill" }}
+  />
+  <Text fontSize="md">
+    {item.caption}
+  </Text>
+</Box>
+```
+
+As I did not desire to specify or normalize my image sizes, I opted to use the `fill` prop on `next/image`.  
+I had some issues making this prop work, so used the legacy `<Image>` and passed props to 
+Chakra ([link](https://stackoverflow.com/a/69596519)).
+
+> [Source](https://nextjs.org/docs/basic-features/image-optimization)- \
+> When using fill, the parent element must have position: relative \
+> When using fill, the parent element must have display: block 
+
+
+The best way I found do fix this issue is to to fill within a Chakra `<Box>`, which will resize to the screen 
+first.  My current solution is simple and could definitely be improved upon, but is drastically more performant 
+than most minor tweaks that I have found.  While easy, I thought I might share this in case anyone viewing this 
+has the same issue.
+
 ### Blog generation- old method
 
 I wrote the blog generation from scratch; below is an overview of how it works.
@@ -102,37 +133,6 @@ implemented a filter by tags feature with
 {blogs.filter((blog) =>
   value.every((checked) => blog.tags.includes(checked.toString()))
 ```
-
-### A note on image loading
-
-In my `parseItem` function, I wrote the below code to load images:
-
-```typescript
-<Box boxSize="md" position="relative" display="block">
-  <Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/${item.body}`}
-    alt="Loading image"
-    objectFit="cover"
-    {...{ layout: "fill" }}
-  />
-  <Text fontSize="md">
-    {item.caption}
-  </Text>
-</Box>
-```
-
-As I did not desire to specify or normalize my image sizes, I opted to use the `fill` prop on `next/image`.  
-I had some issues making this prop work, so used the legacy `<Image>` and passed props to 
-Chakra ([link](https://stackoverflow.com/a/69596519)).
-
-> [Source](https://nextjs.org/docs/basic-features/image-optimization)- \
-> When using fill, the parent element must have position: relative \
-> When using fill, the parent element must have display: block 
-
-
-The best way I found do fix this issue is to to fill within a Chakra `<Box>`, which will resize to the screen 
-first.  My current solution is simple and could definitely be improved upon, but is drastically more performant 
-than most minor tweaks that I have found.  While easy, I thought I might share this in case anyone viewing this 
-has the same issue.
 
 ## To use
 
