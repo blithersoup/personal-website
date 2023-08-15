@@ -2,7 +2,6 @@ import type { GetStaticProps } from "next"
 import { Text, Heading, Stack, Spacer, Card, Tag, CardHeader, CardFooter, CardBody, useCheckboxGroup, Checkbox } from "@chakra-ui/react"
 import { readFileSync, readdirSync } from "fs"
 import { FC } from "react"
-import { parse } from "../components/parser"
 
 export type Item = {
   name: string,
@@ -98,8 +97,9 @@ export const getStaticProps: GetStaticProps = async () => {
   let blogs: any = []
 
   for (const name of dir) {
+    
     const text: string = readFileSync(`blogs/${name}`).toString()
-    const style = JSON.parse(text.match("\{[^}]\}")[0])
+    const style = JSON.parse(text.match("\{[^}]+\}")[0])
     blogs.push(style);
   }
 
