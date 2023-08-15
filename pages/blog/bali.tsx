@@ -51,11 +51,11 @@ const Page = () => {
             day after I flew in.
           </Text>
         </Center>
-        <div key="Tv3EWa1JrJ">
+        <div key="ih0tsRe1uc">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="S13ly_ki99">
-                <div key="_H91kZdCt">
+              <div key="8Wov9uWn_y">
+                <div key="WB3d9DjYs">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -77,8 +77,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="9sZYoj0qlC">
-                <div key="yF8g8z8onK">
+              <div key="yiX79MXqYl">
+                <div key="F2s2yX8GNd">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -114,11 +114,11 @@ const Page = () => {
             then took a hike up a hill nearby.
           </Text>
         </Center>
-        <div key="_UA1nCUVbo">
+        <div key="f7rOP9TAUN">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="85XfkEKs9t">
-                <div key="IXpCwlWffD">
+              <div key="xK6skBExPa">
+                <div key="tz5apVwhmM">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -142,8 +142,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="Yske9pgSge">
-                <div key="WMpWCcIwPE">
+              <div key="FY9ky2MPeU">
+                <div key="intdj-YQqy">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -165,8 +165,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="mFdc66psWn">
-                <div key="0a_iX2CkY3">
+              <div key="Zozp0AWgr6">
+                <div key="1GV24B8Zuw">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -201,11 +201,11 @@ const Page = () => {
             We then decided to go to a Bali swing a short distance out of town.
           </Text>
         </Center>
-        <div key="Hj58fRuAAQ">
+        <div key="u8PiiZSWNW">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="USVnoQNPVHr">
-                <div key="Lqp_xiKFRU">
+              <div key="KMAovt8Y2vK">
+                <div key="-8tlUxHxav">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -229,8 +229,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="0dm0pf9zjlB">
-                <div key="w6cu1eYYmG">
+              <div key="zXp675XG8db">
+                <div key="QESlgS-ZCG">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -254,8 +254,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="NsGYGy---CU">
-                <div key="MADWjAt3rl">
+              <div key="gtLNHHpQ4g3">
+                <div key="1xQLsho1Tv">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -291,11 +291,11 @@ const Page = () => {
             sights.
           </Text>
         </Center>
-        <div key="SYWmOC5UlN4">
+        <div key="pxknFQ-XnbA">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="6U03PcCffoP">
-                <div key="87yEiuL5TJ0">
+              <div key="FHSjeuJsnoV">
+                <div key="A0hGwKTkcRJ">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -317,8 +317,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="Y8ui8MBldc9">
-                <div key="CAt0A9lv7Xc">
+              <div key="wu7WrivviCK">
+                <div key="DRM7kRPLX-V">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -355,11 +355,11 @@ const Page = () => {
             then took a long drive back.
           </Text>
         </Center>
-        <div key="hU8iMPKeQ9H">
+        <div key="OXRx2RjDlc7">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="HnXthqNe_Y4">
-                <div key="kFMrXZ8tMOU">
+              <div key="md3fm7U-B6e">
+                <div key="O4Blkqs3rAF">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -381,8 +381,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="mrZrLeFI-Zi">
-                <div key="AmEGFYyW7lN">
+              <div key="FN0_JaOG-84">
+                <div key="TuBwbaA65ZK">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -404,8 +404,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="AYQg6ekVXGK">
-                <div key="npkxqWgQeCz">
+              <div key="aRymR0PkxbG">
+                <div key="Mc-kpYfoL7m">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -440,11 +440,11 @@ const Page = () => {
             for a while, and headed before ourflight the next morning.
           </Text>
         </Center>
-        <div key="duk9HhSXNmm">
+        <div key="gkwoSyVUbGb">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="43rlNqT_kEB">
-                <div key="lD3IgrL7rPz">
+              <div key="vs3anTMhaGt">
+                <div key="uCuicmfIzom">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -468,8 +468,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="fLwTNT8QBB7">
-                <div key="b7yrB_pVPes">
+              <div key="n80Tqr72ja0">
+                <div key="U2_nqaw0sFh">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -493,8 +493,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="zuN_iyt6xKx">
-                <div key="yoO9TbwBGoQ">
+              <div key="rHC_mhQpAi1">
+                <div key="Ne_EJ0UUC0c">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -531,11 +531,11 @@ const Page = () => {
             which was a short distance away.
           </Text>
         </Center>
-        <div key="u4RlVBY6YjC">
+        <div key="G7M9YpYRyIO">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="SHUT8em3rAu">
-                <div key="UW5XRLHAv16">
+              <div key="11LA9mBtZOE">
+                <div key="71F7ry3XKl6">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -559,8 +559,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="wNUPlpIR0uV">
-                <div key="yswcKewiP3p">
+              <div key="mwxv2xBPmsl">
+                <div key="P8VYKgV7tpp">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -584,8 +584,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="A3cRJyz6sfy">
-                <div key="fWiMCWdiMPv">
+              <div key="cLrNIbEOR3O">
+                <div key="fx9Go7dSRdg">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -609,8 +609,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="bnu9sNcjbGh">
-                <div key="ZX7qBSckcrT">
+              <div key="anbspRDoDc2">
+                <div key="JhJMZJV_ESk">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -647,11 +647,11 @@ const Page = () => {
             inside, and checked out the skylinefrom the observation deck.
           </Text>
         </Center>
-        <div key="u3NAeo70f33">
+        <div key="lGW66GocC02">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="u8LJrvNbY1R">
-                <div key="Dw9AoHmik03">
+              <div key="teRfA-flhiu">
+                <div key="rAQ9Zs6CbVA">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -673,8 +673,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="0XUtRnyPrCQ">
-                <div key="isdf5fVpPJP">
+              <div key="OuTeMcV2h1L">
+                <div key="J7HJJgUVygZ">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -696,8 +696,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="7e_2LUjWFbu">
-                <div key="7phJ63PRrXi">
+              <div key="Mn0ZkJHRLwJ">
+                <div key="sNqLCbLg5Ey">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -719,8 +719,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="gSXdAWIUw-S">
-                <div key="CetIKLeDZcS">
+              <div key="1W7UO1TqMfs">
+                <div key="L3WtpM-kljF">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -754,11 +754,11 @@ const Page = () => {
             halfway to theairport. It was nice but very difficult to find.
           </Text>
         </Center>
-        <div key="yZmb32UjkEk">
+        <div key="CUyLVs0gZLI">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="Of-LfavUJdT">
-                <div key="TILYrm9pUm5">
+              <div key="DMFPQlla36r">
+                <div key="FZBgnZPTsh0">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -782,8 +782,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="P5rpQ9gJW0n">
-                <div key="Fjkzj8qlogA">
+              <div key="uXFvMrJYMAU">
+                <div key="zRtbLLxiBOM">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -807,8 +807,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="_eY11gDFJx2">
-                <div key="PyECqvY-rfJ">
+              <div key="TqkD7G2WmaU">
+                <div key="lnddMng8eMK">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -849,11 +849,11 @@ const Page = () => {
             airport once weran out of time.
           </Text>
         </Center>
-        <div key="1m4q_QN33Wi">
+        <div key="UfIkjYd2vjL">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="FOdQqSo9f0j">
-                <div key="0Qp3wnAnoQE">
+              <div key="EetrjzstP4n">
+                <div key="OOKzU_438UM">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -875,8 +875,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="dvxvNpFJ_-z">
-                <div key="hIS5kjiPS3Z">
+              <div key="vYT9PV4sP3m">
+                <div key="WYlPsRo-xBm">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -904,11 +904,11 @@ const Page = () => {
             <Text fontSize="md">Views from the apartment in the morning</Text>
           </Center>
         </div>
-        <div key="cns_AlQL8uP">
+        <div key="j3a7GSdf_iU">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="S8Z_dQVunsM">
-                <div key="ouPqenAGks1">
+              <div key="9HOsxnO7AUb">
+                <div key="GS7SIjqCpYm">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -932,8 +932,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="3aXfiuJ49Vf">
-                <div key="WHUomXr1FKP">
+              <div key="EAcnKRvQQJm">
+                <div key="qin2Bu-zLrj">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -955,8 +955,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="8SoEr09ClmW">
-                <div key="QVsIR7YaPa1">
+              <div key="Hd0dWx7ITHn">
+                <div key="PsbPRx52R4I">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -986,11 +986,11 @@ const Page = () => {
             <Text fontSize="md"></Text>
           </Center>
         </div>
-        <div key="_6r0uQ5pCJi">
+        <div key="vSYOu1Wuv4w">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="8u9CW2npdTy">
-                <div key="4AT454KS4xd">
+              <div key="I0AjEM1oah2">
+                <div key="AznH8s-q6sn">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1012,8 +1012,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="9O9PIrzo8Fm">
-                <div key="Wt8faZ6kC3F">
+              <div key="tsbxXZdhGZM">
+                <div key="zEOCbtrvr91">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1041,7 +1041,7 @@ const Page = () => {
             <Text fontSize="md">Gas station on the way back</Text>
           </Center>
         </div>
-        <div key="V6VpOVeSRL_">
+        <div key="QRUQb7A6atJ">
           <Center maxW="100%" pt="5">
             <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
               <Image
@@ -1066,11 +1066,11 @@ const Page = () => {
             around the city.
           </Text>
         </Center>
-        <div key="hTVUy70a6N_">
+        <div key="s07KBfRK-mi">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="8x0m7wM2noV">
-                <div key="ywEzsx_vR2z">
+              <div key="HPLerEP599K">
+                <div key="utbthsn4zcz">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1092,8 +1092,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="0WNGKODJoR0">
-                <div key="FwCjNvTfsAI">
+              <div key="ev0zLd8UVn9">
+                <div key="Tn9UDTjtrSY">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1121,11 +1121,11 @@ const Page = () => {
             <Text fontSize="md">Buildings</Text>
           </Center>
         </div>
-        <div key="NrQmO0ccrlu">
+        <div key="2tP-NDk7mR5">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="WHoTyMFsVTL">
-                <div key="SP3TPq5B60a">
+              <div key="tftYoQH2Ikt">
+                <div key="x2qIkCTFwzn">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1147,8 +1147,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="WjCvjHvkeTX">
-                <div key="lTL1vNtepMM">
+              <div key="ucPS8Li9qf8">
+                <div key="XN36hBAo4ix">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1170,8 +1170,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="Ly4JpaHEbex">
-                <div key="LC8t82XTqPe">
+              <div key="VDrmuZcGWlG">
+                <div key="mQcNttTUYaF">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1199,7 +1199,7 @@ const Page = () => {
             <Text fontSize="md">More buildings</Text>
           </Center>
         </div>
-        <div key="ZZqaX9j5_fD">
+        <div key="t_XIZn4bNwc">
           <Center maxW="100%" pt="5">
             <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
               <Image
@@ -1216,11 +1216,11 @@ const Page = () => {
             </Text>
           </Center>
         </div>
-        <div key="G7kHQrWuZ-d">
+        <div key="GPyK-JGCgd2">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="ZC7jO2pGqmq">
-                <div key="cSH6aSRgPrm">
+              <div key="EzZGT7doByT">
+                <div key="yg9QC2U5pz4">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1242,8 +1242,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="QIbjGbSvXvo">
-                <div key="OS1N_UzAbXB">
+              <div key="Dg-CP-nSJvF">
+                <div key="LDD2UqLk5Ne">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1271,11 +1271,11 @@ const Page = () => {
             <Text fontSize="md">Inside some malls</Text>
           </Center>
         </div>
-        <div key="bukrX0ElkiK">
+        <div key="Es15QV4bHYA">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="DWcsunmLvlb">
-                <div key="Ai9OFEQWjnl">
+              <div key="AsGXv7HXE-_">
+                <div key="UyqsktDmX3z">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1297,8 +1297,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="3DHoU9Ng2oM">
-                <div key="mJQpbfzEouP">
+              <div key="CgP4350RAAP">
+                <div key="LqAQ3CplaU1">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1326,11 +1326,11 @@ const Page = () => {
             <Text fontSize="md">High fashion</Text>
           </Center>
         </div>
-        <div key="AFs2qUL5EQ6">
+        <div key="410nDlIjpkv">
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <div key="TWmKYOiuO3_">
-                <div key="PhTZ8fXAyOl">
+              <div key="I5tBjN_iPN2">
+                <div key="rRJwbHdHpig">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1352,8 +1352,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="NOx2lk3lnsL">
-                <div key="pDPN7JD6Y9v">
+              <div key="gTMFc-spLeB">
+                <div key="z8o9CeL-fMu">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
@@ -1375,8 +1375,8 @@ const Page = () => {
                   </Center>
                 </div>
               </div>
-              <div key="bMK3OeN7LCE">
-                <div key="OadgiHdzJjh">
+              <div key="lY_xO5yWA9i">
+                <div key="Ld7Rifm1Gnh">
                   <Center maxW="100%" pt="5">
                     <Box
                       boxSize="md"
