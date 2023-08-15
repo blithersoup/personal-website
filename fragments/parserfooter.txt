@@ -1,0 +1,2 @@
+
+console.log(peg$parse(fs.readFileSync(process.argv[2]).toString()));
