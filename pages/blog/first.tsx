@@ -44,82 +44,90 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0032.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0031.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0021.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0035.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0032.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0031.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0021.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0035.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -129,44 +137,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0067.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0065.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0067.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0065.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -176,63 +188,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0039.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0044.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0046.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0039.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0044.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0046.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -242,63 +260,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0052.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0049.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0051.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0052.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0049.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0051.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -308,82 +332,90 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0079.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0083.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0074.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0073.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0079.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0083.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0074.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0073.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -393,82 +425,90 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0059.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0135.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0118.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0115.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0059.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0135.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0118.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0115.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -478,63 +518,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0186.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0190.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0189.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0186.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0190.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0189.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -546,82 +592,90 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0009.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0167.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0182.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0192.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0009.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0167.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0182.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0192.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -631,63 +685,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0143.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0091.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0166.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0143.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0091.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/blog-1/IMG_0166.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">

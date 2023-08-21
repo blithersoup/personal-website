@@ -51,48 +51,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0963.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Our pickup spot
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0965.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Mini bus
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0963.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Our pickup spot
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0965.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Mini bus
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -106,21 +110,23 @@ const Page = () => {
             our things away before checking outsome of the nearby streets.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0967.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Street view
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0967.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Street view
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, we rode to Kamala beach, which was a 45 minute drive
@@ -130,69 +136,75 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0004.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  On the way
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0971.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  From the car
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0003.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  The beach
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0004.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    On the way
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0971.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    From the car
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0003.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    The beach
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -211,81 +223,89 @@ const Page = () => {
             stay for the next two nights.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0982.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Approaching our destination
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0982.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Approaching our destination
+            </Text>
+          </Center>
+        </div>
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0986.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0987.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0989.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0986.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0987.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0989.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -301,44 +321,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0990.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0992.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0990.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0992.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -354,48 +378,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0999.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  On the way
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1003.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Viking cove
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0999.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    On the way
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1003.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Viking cove
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -410,44 +438,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1005.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0002.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1005.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0002.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -464,44 +496,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1008.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0001.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1008.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0001.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -519,67 +555,73 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1010.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  The bay
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1044.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Kayaking
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1048.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1010.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    The bay
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1044.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Kayaking
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1048.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -589,48 +631,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0997.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Island cat
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1016.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  The beach at night
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_0997.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Island cat
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/phuket/IMG_1016.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    The beach at night
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">

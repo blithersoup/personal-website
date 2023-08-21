@@ -57,48 +57,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0219.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  The pickup area
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0221.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  A blurry shot from the van
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0219.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    The pickup area
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0221.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    A blurry shot from the van
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -114,44 +118,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0223.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0224.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0223.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0224.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -164,62 +172,69 @@ const Page = () => {
             like the ferry movedup and down five feet with each wave.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0226.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            A comforting classic, Top Gun: Maverick (Korean Sub) (Malaysian Sub)
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0226.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              A comforting classic, Top Gun: Maverick (Korean Sub) (Malaysian
+              Sub)
+            </Text>
+          </Center>
+        </div>
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0232.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0237.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0232.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0237.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -235,21 +250,23 @@ const Page = () => {
             took a short drive to thejetty that we would soon depart from.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0241.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Outside the resort
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0241.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Outside the resort
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             We then took an hour-long boat ride around the island to dragon
@@ -259,44 +276,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0243.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0245.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0243.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0245.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -305,21 +326,23 @@ const Page = () => {
             </Text>
           </Center>
         </div>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0455.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Aboard the boat
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0455.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Aboard the boat
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             After the boat ride, we arrived at a village and walked through to
@@ -329,63 +352,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0844.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0251.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0250.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0844.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0251.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0250.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -400,81 +429,89 @@ const Page = () => {
             was the last grassy point betweenthe peaks.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0797.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Checking out a boulder halfway up
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0797.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Checking out a boulder halfway up
+            </Text>
+          </Center>
+        </div>
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0254.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0256.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0259.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0254.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0256.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0259.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -484,63 +521,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0260.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0261.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0262.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0260.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0261.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0262.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -561,69 +604,75 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0469.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  After the hike
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0461.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  View from the boat
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0452.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Buildings outside the jetty
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0469.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    After the hike
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0461.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    View from the boat
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0452.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Buildings outside the jetty
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -640,48 +689,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0272.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  View from the room
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0802.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  On the rocks
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0272.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    View from the room
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0802.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    On the rocks
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -699,44 +752,48 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0630.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0643.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0630.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0643.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -751,48 +808,52 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0276.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Starting the fire
-                </Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0284.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5">
-                  Before cooking
-                </Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0276.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Starting the fire
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0284.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Before cooking
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -805,21 +866,23 @@ const Page = () => {
             cream and stargazed before going to bed.
           </Text>
         </Center>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0286.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Getting rid of extra lighter fluid
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0286.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Getting rid of extra lighter fluid
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, I woke up early and then headed back across the island
@@ -835,65 +898,71 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0293.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0294.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0293.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0294.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
             <Text fontSize="md">Views from the resort before leaving</Text>
           </Center>
         </div>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0239.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Ferry on the way back
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0239.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Ferry on the way back
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             Once on the mainland, we had a family style dinner at a Chinese
@@ -908,63 +977,69 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0298.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0301.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0296.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0298.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0301.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0296.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
@@ -977,65 +1052,71 @@ const Page = () => {
         <div>
           <Center maxW="100%">
             <Stack spacing="25px" direction={["column", "row"]}>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0300.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
-              <Center maxW="100%" pt="5">
-                <Box
-                  boxSize="md"
-                  position="relative"
-                  display="block"
-                  pl="2"
-                  pr="2"
-                >
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0297.JPG`}
-                    alt="Loading image"
-                    objectFit="cover"
-                    {...{ layout: "fill" }}
-                  />
-                </Box>
-              </Center>
-              <Center maxW="100%" pt="3">
-                <Text fontSize="md" pl="5" pr="5"></Text>
-              </Center>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0300.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0297.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
             <Text fontSize="md">Outside the restaurant</Text>
           </Center>
         </div>
-        <Center maxW="100%" pt="5">
-          <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0303.JPG`}
-              alt="Loading image"
-              objectFit="cover"
-              {...{ layout: "fill" }}
-            />
-          </Box>
-        </Center>
-        <Center maxW="100%" pt="3">
-          <Text fontSize="md" pl="5" pr="5">
-            Crossing the border into Singapore
-          </Text>
-        </Center>
+        <div>
+          <Center maxW="100%" pt="5">
+            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/tioman/IMG_0303.JPG`}
+                alt="Loading image"
+                objectFit="cover"
+                {...{ layout: "fill" }}
+              />
+            </Box>
+          </Center>
+          <Center maxW="100%" pt="3">
+            <Text fontSize="md" pl="5" pr="5">
+              Crossing the border into Singapore
+            </Text>
+          </Center>
+        </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             Overall, it was a lovely trip and I had a great time.

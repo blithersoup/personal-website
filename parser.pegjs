@@ -122,17 +122,19 @@ Link
 Image 
 	= "![" caption:([^\]\n]*) "](" src:([^)\n]*) ")" " "* EOL+
     { return ( 
-        "<Center maxW='100%' pt='5'>"
-      +   "<Box boxSize='md' position='relative' display='block' pl='2' pr='2'>"
-      +     "<Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/" + src.join("") 
-      +     "`} alt='Loading image' objectFit='cover' {...{ layout: 'fill' }} />"
-      +   "</Box>"
-      + "</Center>"
-      + "<Center maxW='100%' pt='3'>"
-      +   "<Text fontSize='md' pl='5' pr='5'>" 
-      +     caption.join("") 
-      +   "</Text>" 
-      + "</Center>"
+        "<div>"
+      +   "<Center maxW='100%' pt='5'>"
+      +     "<Box boxSize='md' position='relative' display='block' pl='2' pr='2'>"
+      +       "<Image src={`${process.env.NEXT_PUBLIC_IMG_HOST}/" + src.join("") 
+      +       "`} alt='Loading image' objectFit='cover' {...{ layout: 'fill' }} />"
+      +     "</Box>"
+      +   "</Center>"
+      +   "<Center maxW='100%' pt='3'>"
+      +     "<Text fontSize='md' pl='5' pr='5'>" 
+      +       caption.join("") 
+      +     "</Text>" 
+      +   "</Center>"
+      + "</div>"
       )  
     }
     

@@ -162,8 +162,6 @@ Build-
 zsh refresh_build.zsh
 ```
 
-Requires- prettierjs, pegjs executables
-
 ### Environment variables
 
 `NEXT_PUBLIC_IMG_HOST`: Base URL of image host (must begin with `https://`), or name of directory 
