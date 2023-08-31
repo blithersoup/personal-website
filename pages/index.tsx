@@ -26,6 +26,7 @@ const Project = ({
   name,
   languages,
   frameworks,
+  description,
   source,
 }: projectProps) => {
   return (
@@ -44,9 +45,8 @@ const Project = ({
         </Text>
       </Stack>
 
-      <Stack pl="10" direction="column">
-        <Text fontSize="md">{languages}</Text>
-        <Text fontSize="md">{frameworks}</Text>
+      <Stack pl="10" direction="column" maxW={["100%", "55%"]}>
+        <Text fontSize="lg">{description}</Text>
       </Stack>
     </Stack>
   );
@@ -156,7 +156,7 @@ const HomePage = () => {
           <Spacer />
         </Stack>
       </Stack>
-      <Stack direction="column" height="100vh" id="experience">
+      <Stack direction="column" id="experience" pb="15">
         <Stack direction="row">
           <Spacer />
           <Box
@@ -168,46 +168,66 @@ const HomePage = () => {
           <Spacer />
         </Stack>
         <Box h="3%" />
-        <Heading as="h1" size="lg" pl="3">
+        <Heading as="h1" size="xl" pl="3">
           Interests
         </Heading>
         <Stack direction="column" pl="35">
-          <Text fontSize="md">-Backend Development</Text>
-          <Text fontSize="md">-GNU/Linux</Text>
-          <Text fontSize="md">-FOSS</Text>
+          <Text fontSize="lg">-Backend Development</Text>
+          <Text fontSize="lg">-GNU/Linux</Text>
+          <Text fontSize="lg">-FOSS</Text>
         </Stack>
-        <Heading as="h1" size="lg" pl="3">
+        <Heading as="h1" size="xl" pl="3">
           Work Experience
         </Heading>
-        <Text pl="35" pt="2" fontSize="md">
-          UnitedHealth Group- Software Engineering Intern
+        <Text pl="35" pt="2" fontSize="lg">
+          UnitedHealth Group- Software Engineer Intern
         </Text>
-        <Text pl="42" fontSize="sm">
+        <Text pl="42" fontSize="md">
           Summer 2022
         </Text>
-        <Heading as="h1" size="lg" pl="3" pt="2">
+        <Text pl="35" pt="2" fontSize="lg">
+          Walmart Global Tech- Software Engineer II Intern
+        </Text>
+        <Text pl="42" fontSize="md">
+          Summer 2023
+        </Text>
+        <Heading as="h1" size="xl" pl="3" pt="2">
           Projects
         </Heading>
+        <Project
+          name="2048 Solver"
+          languages="-Python, C++"
+          frameworks="-CMake"
+          description="This project is a simple 2048 game with algorithms to provide moves.  I was able to use cppyy to execute c++ functions within python."
+          source="https://github.com/blithersoup/2048-solver"
+        />
+        <Project
+          name="Linear System of Equations Solver"
+          languages="-C, Python"
+          frameworks="-CPython"
+          description="This implements a couple of algorithms to solve linear systems of equations in a Python library.  The main purpose of the project was to create a library with the Python interface in C, which I was able to do."
+          source="https://github.com/blithersoup/linear-system-solver"
+        />
+        <Project
+          name="ELO Ranking League App"
+          languages="-Python, TypeScript"
+          frameworks="-Flask, SQLAlchemy, PostgreSQL, Next.js"
+          description="ELO implementation for local rankings that takes games as entries and updates a leaderboard.  It uses Flask for the backend, and worked well when deployed."
+          source="https://github.com/blithersoup/elo-server"
+        />
         <Project
           name="Purdue 3D Printed Prosthetics Club Website"
           languages="-Typescript, SQL"
           frameworks="-React, Next.js, Clerk, PostgreSQL"
-          description="Main feature is "
+          description="Scheduling website with authentication and admin controls.  I was able to implement some more advanced react features as well as a RESTful API that interacts with postgres."
           source="https://github.com/blithersoup/purdueprosthetics-3dprint-site"
         />
         <Project
           name="Twitter/News Sentiment Analysis Web App"
           languages="-Java, JavaScript"
           frameworks="-Spring Boot, React, Next.js"
-          description="description"
+          description="Simple website with a Spring Boot backend.  Aside from the frameworks used, I was able to learn how to use enterprise APIs."
           source="https://github.com/blithersoup/spring-project"
-        />
-        <Project
-          name="ELO Ranking League App"
-          languages="-Python, TypeScript"
-          frameworks="-Flask, SQLAlchemy, PostgreSQL, Next.js"
-          description="description"
-          source="https://github.com/blithersoup/elo-server"
         />
       </Stack>
     </>
