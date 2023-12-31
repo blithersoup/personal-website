@@ -44,7 +44,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             This blog is on my four day trip to Phuket and Phi Phi Islands,
-            Thailand. The tripbegan with my group flying from Singapore to
+            Thailand. The trip began with my group flying from Singapore to
             Phuket on Thursday afternoon.
           </Text>
         </Center>
@@ -105,9 +105,10 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             After we landed, we got in a taxi that turned out to be a party bus
-            and drove an hourto our hostel. The hostel was very nice, and we put
-            our things away before checking outsome of the nearby streets.
+            and drove an hour to our hostel. The hostel was very nice, and we
+            put our things away before checking out some of the nearby streets.
           </Text>
         </Center>
         <div>
@@ -130,7 +131,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, we rode to Kamala beach, which was a 45 minute drive
-            north.
+            north.{" "}
           </Text>
         </Center>
         <div>
@@ -214,7 +215,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             We hung out at that beach for most of the day, and then watched the
-            sunset on the beachcloser to our hostel.
+            sunset on the beach closer to our hostel.
           </Text>
         </Center>
         <Center maxW="100%">
@@ -371,8 +372,9 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             The next day, we woke up early and did a boat tour of some
-            surrounding areas.
+            surrounding areas.{" "}
           </Text>
         </Center>
         <div>
@@ -432,6 +434,7 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             We first swam in a lagoon; the water was great.
           </Text>
         </Center>
@@ -488,9 +491,10 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             We then went to Maya bay, which is apparently the location of ‘The
-            Beach (2000)’.I have never seen the movie, but as it turns out Phi
-            Phi Islands gained most of theirpopularity after its release.
+            Beach (2000)’. I have never seen the movie, but as it turns out Phi
+            Phi Islands gained most of their popularity after its release.{" "}
           </Text>
         </Center>
         <div>
@@ -546,9 +550,10 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             We then headed back and had a relaxing afternoon. A few hours later,
-            Hugo and I decidedto go kayaking in the bay near our hostel. We made
-            it almost to sea, and got to see a coolrock formation near the
+            Hugo and I decided to go kayaking in the bay near our hostel. We
+            made it almost to sea, and got to see a cool rock formation near the
             ocean.
           </Text>
         </Center>
@@ -686,7 +691,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day all we did was head back to Singapore. Overall, I had a
-            great time andthoroughly enjoyed the trip.
+            great time and thoroughly enjoyed the trip.
           </Text>
         </Center>
       </Stack>

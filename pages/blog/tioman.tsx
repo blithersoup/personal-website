@@ -44,13 +44,13 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             This blog details the first part of my spring break where I went on
-            a trip toTioman Island in Malaysia.
+            a trip to Tioman Island in Malaysia.
           </Text>
         </Center>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             I got picked up at around 2am from my dorm by van. The roads were
-            completelyempty, and it took about five hours to get to the port in
+            completely empty, and it took about five hours to get to the port in
             mainland Malaysia.
           </Text>
         </Center>
@@ -168,8 +168,9 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             As it was still monsoon season, the ocean was very choppy; it seemed
-            like the ferry movedup and down five feet with each wave.
+            like the ferry moved up and down five feet with each wave.
           </Text>
         </Center>
         <div>
@@ -243,11 +244,12 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             After landing on the island, we met with our driver for the weekend
-            and headed to a resort nearby.We were traveling with another group
-            that was staying where we arrived for the weekend, so we setdown our
-            belongings and had lunch at a nearby chinese restaurant. We then
-            took a short drive to thejetty that we would soon depart from.
+            and headed to a resort nearby. We were traveling with another group
+            that was staying where we arrived for the weekend, so we set down
+            our belongings and had lunch at a nearby chinese restaurant. We then
+            took a short drive to the jetty that we would soon depart from.
           </Text>
         </Center>
         <div>
@@ -426,7 +428,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             We then hiked up the mountain, and the highest point that we reached
-            was the last grassy point betweenthe peaks.
+            was the last grassy point between the peaks.
           </Text>
         </Center>
         <div>
@@ -594,10 +596,11 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
             After we hiked back down, we took a boat back to where we started on
-            the island, collected our things,and took the truck across the
+            the island, collected our things, and took the truck across the
             island to where we would stay for the next two nights. We then
-            settledinto our suite and had some western food. I then went to
+            settled into our suite and had some western food. I then went to
             sleep early.
           </Text>
         </Center>
@@ -682,7 +685,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, we started the day by walking the beach. One part was
-            very rocky and had ponds with fishthat got washed up during high
+            very rocky and had ponds with fish that got washed up during high
             tide.
           </Text>
         </Center>
@@ -744,9 +747,10 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             We then walked past a few resorts that were mostly empty because it
-            was between dive and surf seasons.There was a sea turtle conservancy
-            nearby, which was interesting. We had some snacks, and then played
-            inthe ocean for a bit; as expected, the waves were substantial.
+            was between dive and surf seasons. There was a sea turtle
+            conservancy nearby, which was interesting. We had some snacks, and
+            then played in the ocean for a bit; as expected, the waves were
+            substantial.
           </Text>
         </Center>
         <div>
@@ -886,12 +890,12 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, I woke up early and then headed back across the island
-            with the group. We departed from a nearbyjetty to go snorkeling,
+            with the group. We departed from a nearby jetty to go snorkeling,
             which I did not get any pictures of. I saw a coral reef and even
-            some characters fromFinding Nemo! Also, apparently the king of
+            some characters from Finding Nemo! Also, apparently the king of
             Malaysia was on the island the day that we were there, so we saw
-            somehelicopters flying overhead a few times. The group then headed
-            back and hung out for a bit before getting on theferry back to the
+            some helicopters flying overhead a few times. The group then headed
+            back and hung out for a bit before getting on the ferry back to the
             mainland.
           </Text>
         </Center>
@@ -966,12 +970,12 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             Once on the mainland, we had a family style dinner at a Chinese
-            restaurant. The staff was very friendly, and thefood we had was
+            restaurant. The staff was very friendly, and the food we had was
             great. Halfway through, as it was going to rain in an hour, there
-            was a cloud of bugs that descendedon the restaurant. The bugs were
+            was a cloud of bugs that descended on the restaurant. The bugs were
             everywhere for a few minutes until a flock of birds cleared them
-            out. After dinner,we waited for the van and headed back into
-            Singapore.
+            out. After dinner, we waited for the van and headed back into
+            Singapore.{" "}
           </Text>
         </Center>
         <div>
@@ -1047,7 +1051,9 @@ const Page = () => {
           </Center>
         </div>
         <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}></Text>
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            {" "}
+          </Text>
         </Center>
         <div>
           <Center maxW="100%">

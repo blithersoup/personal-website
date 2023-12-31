@@ -1,6 +1,6 @@
 {
   "name": "Aussie Road Trip from Sydney to Melbourne",
-  "date": "June 18, 2023",
+  "date": "December 30, 2023",
   "tags": [
     "Study abroad",
     "photos"
@@ -9,129 +9,291 @@
   "link": "australia"
 }
 
-![](australia/IMG_0001.JPG)
+# Aussie Road Trip from Sydney to Melbourne
 
-![](australia/IMG_0002.JPG)
+December 30, 2023
 
-![](australia/IMG_0003.JPG)
+This blog details a trip to Australia that I took at the end of my study abroad semester with my 
+friends Hugo and Mikołai.
 
-![](australia/IMG_0004.JPG)
+We began the trip by flying into Sydney, picking up the rental car, and driving to Bondi beach.  After 
+ exploring the area in the afternoon, we decided to head to the opera house to catch the symphony that 
+evening.  We were not sure if we could get in, but ended up getting good tickets inside.
 
-![](australia/IMG_0005.JPG)
+{
 
-![](australia/IMG_0006.JPG)
+  ![At the opera](australia/IMG_0001.JPG)
 
-![](australia/IMG_0007.JPG)
+  ![Opera House](australia/IMG_1076.JPG)
 
-![](australia/IMG_0008.JPG)
+  ![Downtown Sydney](australia/IMG_1080.JPG)
 
-![](australia/IMG_0009.JPG)
+}
 
-![](australia/IMG_0010.JPG)
+The next day, we did a couple hikes in the Blue Mountains near Sydney.  We started with the grand canyon 
+track, and then drove over to , finishing late.
 
-![](australia/IMG_0011.JPG)
+{
 
-![](australia/IMG_0012.JPG)
+  ![](australia/IMG_1089.JPG)
 
-![](australia/IMG_0013.JPG)
+  ![Old man on the trail!](australia/IMG_1106.JPG)
 
-![](australia/IMG_0015.JPG)
+  ![](australia/IMG_1113.JPG)
 
-![](australia/IMG_0016.JPG)
+}
 
-![](australia/IMG_0019.JPG)
+{
 
-![](australia/IMG_1076.JPG)
+  ![](australia/IMG_1099.JPG)
 
-![](australia/IMG_1080.JPG)
+  ![](australia/IMG_0003.JPG)
 
-![](australia/IMG_1089.JPG)
+  ![](australia/IMG_1125.JPG)
 
-![](australia/IMG_1099.JPG)
+}
 
-![](australia/IMG_1106.JPG)
+{ Great views!
 
-![](australia/IMG_1113.JPG)
+  ![](australia/IMG_0002.JPG)
 
-![](australia/IMG_1125.JPG)
+  ![](australia/IMG_0004.JPG)
 
-![](australia/IMG_1160.JPG)
+}
 
-![](australia/IMG_1172.JPG)
+We then drove down the coast to Wollongong, where we spent our afternoon.
 
-![](australia/IMG_1173.JPG)
+{ Wollongong
 
-![](australia/IMG_1176.JPG)
+  ![](australia/IMG_0005.JPG)
 
-![](australia/IMG_1185.JPG)
+  ![](australia/IMG_1134.JPG)
 
-![](australia/IMG_1187.JPG)
+  ![](australia/IMG_1155.JPG)
 
-![](australia/IMG_1188.JPG)
+}
 
-![](australia/IMG_1194.JPG)
+We then finished the remainder of the drive to Durras North and camped there.  We got to see plenty of 
+kangaroos and bright stars.
 
-![](australia/IMG_1196.JPG)
+{
 
-![](australia/IMG_1202.JPG)
+  ![](australia/IMG_1160.JPG)
 
-![](australia/IMG_1207.JPG)
+  ![](australia/IMG_1167.JPG)
 
-![](australia/IMG_1214.JPG)
+}
 
-![](australia/IMG_1221.JPG)
+The next morning, we took a hike along the shoreline from Depot Beach to near Pebbly Beach.
 
-![](australia/IMG_1226.JPG)
+{ On the beach
 
-![](australia/IMG_1228.JPG)
+  ![](australia/IMG_1170.JPG)
 
-![](australia/IMG_1229.JPG)
+  ![](australia/IMG_1172.JPG)
 
-![](australia/IMG_1237.JPG)
+}
 
-![](australia/IMG_1251.JPG)
+{ Hiking
 
-![](australia/IMG_1253.JPG)
+  ![Wildlife encounter](australia/IMG_1185.JPG)
 
-![](australia/IMG_1258.JPG)
+  ![](australia/IMG_1173.JPG)
 
-![](australia/IMG_1259.JPG)
+  ![](australia/IMG_1176.JPG)
 
-![](australia/IMG_1278.JPG)
+}
 
-![](australia/IMG_1282.JPG)
+After the hike, we had a long car ride to our next stop, Wilsons Promontory.
 
-![](australia/IMG_1284.JPG)
+{ On the road
 
-![](australia/IMG_1289.JPG)
+  ![](australia/IMG_1187.JPG)
 
-![](australia/IMG_1318.JPG)
+  ![](australia/IMG_1188.JPG)
 
-![](australia/IMG_1323.JPG)
+}
 
-![](australia/IMG_1326.JPG)
+{ Camping
 
-![](australia/IMG_1363.JPG)
+  ![](australia/IMG_1194.JPG)
 
-![](australia/IMG_1384.JPG)
+  ![](australia/IMG_1196.JPG)
 
-![](australia/IMG_1385.JPG)
+}
 
-![](australia/IMG_1386.JPG)
+At Wilsons Promontory, we checked out the dunes at Big Drift, which were some sand dunes overlooking the ocean.
 
-![](australia/IMG_1393.JPG)
+{ Big Drift dunes 
 
-![](australia/IMG_1401.JPG)
+  ![](australia/IMG_1207.JPG)
 
-![](australia/IMG_1404.JPG)
+  ![](australia/IMG_1214.JPG)
 
-![](australia/IMG_1410.JPG)
+}
 
-![](australia/IMG_1412.JPG)
+After that, we hiked Mount Bishop and visited Squaky Beach, which had sand that squaked when walked on.
 
-![](australia/IMG_1421.JPG)
+{ Mount Bishop
 
-![](australia/IMG_1423.JPG)
+  ![](australia/IMG_1226.JPG)
 
-![](australia/IMG_1425.JPG)
+  ![](australia/IMG_0006.JPG)
+
+  ![](australia/IMG_1229.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1228.JPG)
+
+  ![](australia/IMG_0008.JPG)
+
+  ![Squaky sand beach](australia/IMG_1237.JPG)
+
+}
+
+{
+
+  ![Excellent meal](australia/IMG_1221.JPG)
+
+  ![Very helpful sign!](australia/IMG_1251.JPG)
+
+}
+
+{ Flat tire in Wilsons Prom
+
+  ![](australia/IMG_1202.JPG)
+
+  ![](australia/IMG_1253.JPG)
+
+}
+
+We then had an afternoon in Melbourne before driving to the Grampians to camp.
+
+{ Downtown Melbourne
+
+  ![](australia/IMG_1258.JPG)
+
+  ![](australia/IMG_1259.JPG)
+
+}
+
+While in the Grampians, we did the MacKenzie Falls via Zumsteins, Mount Rosea, and Pinnacle via wonderland hikes.
+
+{
+
+  ![Our camping spot](australia/IMG_1278.JPG)
+
+  ![](australia/IMG_1282.JPG)
+
+  ![](australia/IMG_0010.JPG)
+
+  ![](australia/IMG_1286.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1289.JPG)
+
+  ![](australia/IMG_0012.JPG)
+
+  ![](australia/IMG_1318.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1323.JPG)
+
+  ![](australia/IMG_1326.JPG)
+
+  ![](australia/IMG_0015.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1363.JPG)
+
+  ![May have been lost here](australia/IMG_0013.JPG)
+
+  ![](australia/IMG_1384.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1324.JPG)
+
+  ![Another old man!](australia/IMG_1385.JPG)
+
+  ![](australia/IMG_0019.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1306.JPG)
+
+  ![](australia/IMG_1386.JPG)
+
+  ![](australia/IMG_0009.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1382.JPG)
+
+  ![](australia/IMG_1389.JPG)
+
+  ![](australia/IMG_1390.JPG)
+
+}
+
+{
+
+  ![](australia/IMG_1393.JPG)
+
+  ![Early morning with an emu](australia/IMG_1453.JPG)
+
+  ![](australia/IMG_1375.JPG)
+
+}
+
+We then drove back to Melbourne, visiting organ pipes national park on the way.
+
+{
+
+  ![Organ pipes](australia/IMG_1401.JPG)
+
+  ![](australia/IMG_1404.JPG)
+
+  ![](australia/IMG_1410.JPG)
+
+}
+
+The next morning, we drove on the Melbourne F1 course, which is open as a public road most 
+of the time.  I then flew back to Singapore.
+
+{
+
+  ![They have trains here](australia/IMG_1403.JPG)
+
+  ![Melbourne at night](australia/IMG_1412.JPG)
+
+  ![F1 course](australia/IMG_1421.JPG)
+
+}
+
+{
+
+  ![Packed day at the Changi Jewel](australia/IMG_1423.JPG)
+
+  ![Train stop for my dorm](australia/IMG_1425.JPG)
+
+}
 

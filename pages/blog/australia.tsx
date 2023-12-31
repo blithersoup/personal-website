@@ -17,11 +17,11 @@ const Image = chakra(NextImage, {
 });
 const Page = () => {
   const meta = {
-    name: "Spring Break Trip to Bali and Jakarta",
-    date: "April 5, 2023",
+    name: "Aussie Road Trip from Sydney to Melbourne",
+    date: "December 30, 2023",
     tags: ["Study abroad", "photos"],
-    id: 2,
-    link: "bali",
+    id: 4,
+    link: "australia",
   };
   return (
     <>
@@ -33,22 +33,27 @@ const Page = () => {
       <Stack direction="column" maxW="100%" spacing="10" pt="5" pb="20">
         <Center maxW="100%">
           <Heading pl="3" pr="3" as="h1" size="2xl">
-            Spring Break Trip to Bali and Jakarta
+            Aussie Road Trip from Sydney to Melbourne
           </Heading>
         </Center>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            April 5, 2023
+            December 30, 2023
           </Text>
         </Center>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            This blog covers the second half of my spring break trip, in which I
-            traveled to Bali and Jakarta. The trip began the morning after I got
-            back from Malaysia. Due to this fact (and because my alarm was set
-            to the quietest possible volume), I may have not woken up in time
-            for my flight and had to leave later in the day. The photos start
-            from the day after I flew in.
+            This blog details a trip to Australia that I took at the end of my
+            study abroad semester with my friends Hugo and Mikołai.
+          </Text>
+        </Center>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            We began the trip by flying into Sydney, picking up the rental car,
+            and driving to Bondi beach. After exploring the area in the
+            afternoon, we decided to head to the opera house to catch the
+            symphony that evening. We were not sure if we could get in, but
+            ended up getting good tickets inside.
           </Text>
         </Center>
         <div>
@@ -64,66 +69,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0327.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0325.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md">Downtown Ubud</Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            We stayed in Kuta, which is in the south of the island. To begin the
-            day, we took a taxi from our residence to Ubud, which was a bit over
-            an hour drive north. We walked the streets and saw a few sights, and
-            then took a hike up a hill nearby.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0331.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0001.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -132,7 +78,7 @@ const Page = () => {
                 </Center>
                 <Center maxW="100%" pt="3">
                   <Text fontSize="md" pl="5" pr="5">
-                    Temple in town
+                    At the opera
                   </Text>
                 </Center>
               </div>
@@ -146,7 +92,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0332.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1076.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -154,7 +100,9 @@ const Page = () => {
                   </Box>
                 </Center>
                 <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
+                  <Text fontSize="md" pl="5" pr="5">
+                    Opera House
+                  </Text>
                 </Center>
               </div>
               <div>
@@ -167,7 +115,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_6897.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1080.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -176,7 +124,7 @@ const Page = () => {
                 </Center>
                 <Center maxW="100%" pt="3">
                   <Text fontSize="md" pl="5" pr="5">
-                    Group at lunch
+                    Downtown Sydney
                   </Text>
                 </Center>
               </div>
@@ -188,7 +136,9 @@ const Page = () => {
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            We then decided to go to a Bali swing a short distance out of town.
+            The next day, we did a couple hikes in the Blue Mountains near
+            Sydney. We started with the grand canyon track, and then drove over
+            to , finishing late.
           </Text>
         </Center>
         <div>
@@ -204,91 +154,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0341.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Statue at a cafe
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0342.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    On the drive
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_6974.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    On the swing
-                  </Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            After the swing, we took a taxi to a nearby rice field to see some
-            sights.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0345.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1089.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -309,7 +175,30 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0348.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1106.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Old man on the trail!
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1113.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -318,602 +207,6 @@ const Page = () => {
                 </Center>
                 <Center maxW="100%" pt="3">
                   <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md">Field in question</Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            The plan after that was to head to a gate and then to a large
-            temple, but we ran out of daylight before heading to the temple.
-            There was also a holiday during our stay, so the roads in some areas
-            we went to were packed. We stayed at the gate for a short bit and
-            then took a long drive back.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0350.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0351.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0364.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            The next day, the group went on an ATV tour in the morning and
-            headed to the beach in the evening. We hung out and swam at the
-            beach for a while, and headed before our flight the next morning.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0381.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    On the road
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_7270.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    At ATVs
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0384.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Beach restaurant
-                  </Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            We spent the next day in Jakarta. First, we checked into the hotel
-            where one group member was staying. We then walked to Chinatown,
-            which was a short distance away.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0392.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    View from the hotel
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0394.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Chinatown
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0395.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Busy market
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0434.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Sleepy at a food court
-                  </Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            We then headed to the center of the city to view the city from atop
-            the national monument. We saw the museum of Indonesian history
-            inside, and checked out the skyline from the observation deck.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0401.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0406.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0407.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0409.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md">National monument</Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            We then headed to our stay for the night, which was an apartment
-            halfway to the airport. It was nice but very difficult to find.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0410.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Cathedral near the monument
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0412.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    View from the apartment
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0413.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Local fruits we tried
-                  </Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <Center maxW="100%">
-          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            The next morning, myself and a few others tried to sightsee before
-            heading to the airport. Getting there, however, we got dropped off
-            at the wrong location and walked an hour and a half towards where we
-            thought our destination was. As it turns out, we navigated to the
-            wrong location and were dropped in the wrong place for that as well.
-            It was still fun to walk along the road, and we headed to the
-            airport once we ran out of time.
-          </Text>
-        </Center>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0415.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0416.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md">Views from the apartment in the morning</Text>
-          </Center>
-        </div>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0421.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    Great deal! Byu one, get one
-                  </Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0423.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0425.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5">
-                    A Chinese elementary school
-                  </Text>
                 </Center>
               </div>
             </Stack>
@@ -935,7 +228,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0435.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1099.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -956,7 +249,28 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0436.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0003.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1125.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -970,32 +284,64 @@ const Page = () => {
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">Gas station on the way back</Text>
+            <Text fontSize="md"></Text>
           </Center>
         </div>
         <div>
-          <Center maxW="100%" pt="5">
-            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-              <Image
-                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0432.JPG`}
-                alt="Loading image"
-                objectFit="cover"
-                {...{ layout: "fill" }}
-              />
-            </Box>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0002.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0004.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
           </Center>
-          <Center maxW="100%" pt="3">
-            <Text fontSize="md" pl="5" pr="5">
-              Some monkeys outside the food court at my dorm
-            </Text>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">Great views!</Text>
           </Center>
         </div>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
-            As this blog was heavily delayed, below is a bonus mini-blog about
-            my day trip to Johor Bahru in Malaysia. In short, myself and a
-            friend took a train to and from the border, and took taxis to random
-            sites around the city.
+            We then drove down the coast to Wollongong, where we spent our
+            afternoon.
           </Text>
         </Center>
         <div>
@@ -1011,7 +357,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0901.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0005.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1032,7 +378,28 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0910.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1134.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1155.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1046,7 +413,121 @@ const Page = () => {
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">Buildings</Text>
+            <Text fontSize="md">Wollongong</Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            We then finished the remainder of the drive to Durras North and
+            camped there. We got to see plenty of kangaroos and bright stars.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1160.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1167.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            The next morning, we took a hike along the shoreline from Depot
+            Beach to near Pebbly Beach.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1170.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1172.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">On the beach</Text>
           </Center>
         </div>
         <div>
@@ -1062,7 +543,30 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0921.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1185.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Wildlife encounter
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1173.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1083,28 +587,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0913.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0920.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1176.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1118,24 +601,64 @@ const Page = () => {
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">More buildings</Text>
+            <Text fontSize="md">Hiking</Text>
           </Center>
         </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            After the hike, we had a long car ride to our next stop, Wilsons
+            Promontory.
+          </Text>
+        </Center>
         <div>
-          <Center maxW="100%" pt="5">
-            <Box boxSize="md" position="relative" display="block" pl="2" pr="2">
-              <Image
-                src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0911.JPG`}
-                alt="Loading image"
-                objectFit="cover"
-                {...{ layout: "fill" }}
-              />
-            </Box>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1187.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1188.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
           </Center>
-          <Center maxW="100%" pt="3">
-            <Text fontSize="md" pl="5" pr="5">
-              Crosswalk
-            </Text>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">On the road</Text>
           </Center>
         </div>
         <div>
@@ -1151,7 +674,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0903.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1194.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1172,7 +695,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0917.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1196.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1186,7 +709,142 @@ const Page = () => {
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">Inside some malls</Text>
+            <Text fontSize="md">Camping</Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            At Wilsons Promontory, we checked out the dunes at Big Drift, which
+            were some sand dunes overlooking the ocean.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1207.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1214.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">Big Drift dunes </Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            After that, we hiked Mount Bishop and visited Squaky Beach, which
+            had sand that squaked when walked on.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1226.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0006.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1229.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">Mount Bishop</Text>
           </Center>
         </div>
         <div>
@@ -1202,7 +860,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0908.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1228.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1223,7 +881,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0909.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0008.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1234,10 +892,33 @@ const Page = () => {
                   <Text fontSize="md" pl="5" pr="5"></Text>
                 </Center>
               </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1237.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Squaky sand beach
+                  </Text>
+                </Center>
+              </div>
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">High fashion</Text>
+            <Text fontSize="md"></Text>
           </Center>
         </div>
         <div>
@@ -1253,7 +934,62 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0925.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1221.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Excellent meal
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1251.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Very helpful sign!
+                  </Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1202.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1274,28 +1010,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0900.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/bali/IMG_0926.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1253.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1309,7 +1024,894 @@ const Page = () => {
             </Stack>
           </Center>
           <Center maxW="100%" pt="5">
-            <Text fontSize="md">Madness at the border</Text>
+            <Text fontSize="md">Flat tire in Wilsons Prom</Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            We then had an afternoon in Melbourne before driving to the
+            Grampians to camp.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1258.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1259.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md">Downtown Melbourne</Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            While in the Grampians, we did the MacKenzie Falls via Zumsteins,
+            Mount Rosea, and Pinnacle via wonderland hikes.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1278.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Our camping spot
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1282.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0010.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1286.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1289.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0012.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1318.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1323.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1326.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0015.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1363.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0013.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    May have been lost here
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1384.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1324.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1385.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Another old man!
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0019.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1306.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1386.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_0009.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1382.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1389.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1390.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1393.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1453.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Early morning with an emu
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1375.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            We then drove back to Melbourne, visiting organ pipes national park
+            on the way.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1401.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Organ pipes
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1404.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1410.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            The next morning, we drove on the Melbourne F1 course, which is open
+            as a public road most of the time. I then flew back to Singapore.
+          </Text>
+        </Center>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1403.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    They have trains here
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1412.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Melbourne at night
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1421.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    F1 course
+                  </Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={["column", "row"]}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1423.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Packed day at the Changi Jewel
+                  </Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/australia/IMG_1425.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5">
+                    Train stop for my dorm
+                  </Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
           </Center>
         </div>
       </Stack>

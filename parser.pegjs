@@ -79,7 +79,7 @@ Line
 
 Text
 	= body:([^\n]+)
-    {  return body.join("").trim() }
+    {  return body.join("") }
     
 
 Bold 
