@@ -137,8 +137,8 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             The next day, we did a couple hikes in the Blue Mountains near
-            Sydney. We started with the grand canyon track, and then drove over
-            to , finishing late.
+            Sydney. We started with Grose River Lookout via Faulconbridge and
+            then drove over to Fortress Ridge, finishing late.
           </Text>
         </Center>
         <div>
@@ -772,7 +772,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             After that, we hiked Mount Bishop and visited Squaky Beach, which
-            had sand that squaked when walked on.
+            had sand that squeaked when walked on.
           </Text>
         </Center>
         <div>
