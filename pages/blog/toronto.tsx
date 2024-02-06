@@ -265,7 +265,7 @@ const Page = () => {
           </Center>
           <Center maxW="100%" pt="3">
             <Text fontSize="md" pl="5" pr="5">
-              They have trains here
+              They have streetcars here
             </Text>
           </Center>
         </div>
