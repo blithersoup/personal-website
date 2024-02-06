@@ -1,5 +1,5 @@
 {
-  "name": "Trip to Phuket and Phi Phi Islands, Thailand",
+  "name": "Trip to Phuket and Ko Phi Phi Don, Thailand",
   "date": "April 7, 2023",
   "tags": [
     "Study abroad",
@@ -9,7 +9,7 @@
   "link": "phuket"
 }
 
-# Trip to Phuket and Phi Phi Islands, Thailand
+# Trip to Phuket and Ko Phi Phi Don, Thailand
 
 April 7, 2023
 

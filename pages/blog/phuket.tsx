@@ -17,7 +17,7 @@ const Image = chakra(NextImage, {
 });
 const Page = () => {
   const meta = {
-    name: "Trip to Phuket and Phi Phi Islands, Thailand",
+    name: "Trip to Phuket and Ko Phi Phi Don, Thailand",
     date: "April 7, 2023",
     tags: ["Study abroad", "photos"],
     id: 3,
@@ -33,7 +33,7 @@ const Page = () => {
       <Stack direction="column" maxW="100%" spacing="10" pt="5" pb="20">
         <Center maxW="100%">
           <Heading pl="3" pr="3" as="h1" size="2xl">
-            Trip to Phuket and Phi Phi Islands, Thailand
+            Trip to Phuket and Ko Phi Phi Don, Thailand
           </Heading>
         </Center>
         <Center maxW="100%">
