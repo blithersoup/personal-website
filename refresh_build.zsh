@@ -16,16 +16,28 @@ function writefile {
   echo $OUT > $NEWFILE;
 }
 
-echo "Building parser==================="
+if [[ $1 == "--refresh-parser" ]]; then
+  echo "Building parser==================="
 
-echo -n "parser.js... "
-time (buildparser)
+  echo -n "parser.js... "
+  time (buildparser)
 
-echo "\nCreating pages===================="
+else 
+  cd blogs
+  
+  if [[ $1 == "" ]]; then
+    echo "\nCreating pages===================="
 
-cd blogs
-for FILE in *; do
-  echo -n "$FILE... "
-  time (writefile $FILE)
-done
-cd ..
+    for FILE in *; do
+      echo -n "$FILE... "
+      time (writefile $FILE)
+    done
+
+  else
+    echo -n "Refreshing $1.txt... "
+    time (writefile $1.txt)
+
+  fi
+  cd ..
+
+fi
