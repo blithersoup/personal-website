@@ -7,7 +7,7 @@ Simple portfolio website made with Next.js in TypeScript.  Hosted at [gradyarnol
 ## About 
 
 ### Blog parsing- code generation
-
+ 
 The project uses a PEG parser with pegjs to generate code from text.
 
 #### Parser expression hierarchy
