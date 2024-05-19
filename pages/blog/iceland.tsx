@@ -820,7 +820,7 @@ const Page = () => {
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             We hiked on the ice for several hours and even got to drink water
-            off of the glacier!
+            from off of the glacier!
           </Text>
         </Center>
         <div>
@@ -911,7 +911,9 @@ const Page = () => {
                   </Box>
                 </Center>
                 <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
+                  <Text fontSize="md" pl="5" pr="5">
+                    Go Iceland
+                  </Text>
                 </Center>
               </div>
             </Stack>
@@ -1417,7 +1419,9 @@ const Page = () => {
                   </Box>
                 </Center>
                 <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
+                  <Text fontSize="md" pl="5" pr="5">
+                    Slippery trail
+                  </Text>
                 </Center>
               </div>
               <div>
@@ -1782,7 +1786,9 @@ const Page = () => {
                   </Box>
                 </Center>
                 <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
+                  <Text fontSize="md" pl="5" pr="5">
+                    In deep snow
+                  </Text>
                 </Center>
               </div>
             </Stack>
@@ -2563,7 +2569,9 @@ const Page = () => {
                   </Box>
                 </Center>
                 <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
+                  <Text fontSize="md" pl="5" pr="5">
+                    Hallgrimskirkja
+                  </Text>
                 </Center>
               </div>
             </Stack>
