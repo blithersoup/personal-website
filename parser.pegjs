@@ -33,7 +33,7 @@ Row
       return ( 
         "<div>"
         +   "<Center maxW='100%'>"
-        +     "<Stack spacing='25px' direction={['column', 'row']}>" 
+        +     "<Stack spacing='25px' direction={{base: 'column', xl: 'row'}}>" 
         +       body.map((item) => item[1]).join("") 
         +     "</Stack>"
         +   "</Center>"

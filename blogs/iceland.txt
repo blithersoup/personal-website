@@ -1,6 +1,6 @@
 {
   "name": "A Week in Iceland",
-  "date": "May 19, 2023",
+  "date": "May 19, 2024",
   "tags": [
     "photos"
   ],
@@ -10,6 +10,8 @@
 
 # A Week in Iceland
 
+May 19, 2024
+
 This spring break, I traveled to Iceland with my friend Hugo.  This blog 
 is longer than my earlier ones, and in my opinion the pictures do not do 
 Iceland justice; each place we saw was breathtaking.  After a late night 
@@ -17,11 +19,11 @@ arrival, we began the first day with a hike.
 
 {
 
-    ![Boarding](icelandtry/IMG_1115.JPG)
+    ![Boarding](iceland/IMG_1115.JPG)
 
-    ![View from the hostel](icelandtry/IMG_1117.JPG)
+    ![View from the hostel](iceland/IMG_1117.JPG)
 
-    ![Street view](icelandtry/IMG_1119.JPG)
+    ![Street view](iceland/IMG_1119.JPG)
 
 }
 
@@ -30,25 +32,25 @@ time.  Along the way, we saw some interesting rock formations and plants.
 
 {
 
-    ![Delicious Kanilstykki](icelandtry/IMG_1121.JPG)
+    ![Delicious Kanilstykki](iceland/IMG_1121.JPG)
 
-    ![Setting off](icelandtry/IMG_7524.JPG)
+    ![Setting off](iceland/IMG_7524.JPG)
 
-    ![](icelandtry/IMG_1122.JPG)
+    ![](iceland/IMG_1122.JPG)
 
-    ![](icelandtry/IMG_1126.JPG)
+    ![](iceland/IMG_1126.JPG)
 
 }
 
 { At the top
 
-    ![](icelandtry/IMG_1128.JPG)
+    ![](iceland/IMG_1128.JPG)
 
-    ![](icelandtry/IMG_1130.JPG)
+    ![](iceland/IMG_1130.JPG)
 
-    ![](icelandtry/IMG_1131.JPG)
+    ![](iceland/IMG_1131.JPG)
 
-    ![](icelandtry/IMG_7542.JPG)
+    ![](iceland/IMG_7542.JPG)
 
 }
 
@@ -57,13 +59,13 @@ springs.
 
 {
 
-    ![](icelandtry/IMG_1139.JPG)
+    ![](iceland/IMG_1139.JPG)
 
-    ![](icelandtry/IMG_1144.JPG)
+    ![](iceland/IMG_1144.JPG)
 
-    ![](icelandtry/IMG_1145.JPG)
+    ![](iceland/IMG_1145.JPG)
 
-    ![May have worn the wrong shoes](icelandtry/IMG_7563.JPG)
+    ![May have worn the wrong shoes](iceland/IMG_7563.JPG)
 
 }
 
@@ -71,13 +73,13 @@ The hot springs were the perfect temperature, and we bathed in them for
 over an hour.
 
 {
-    ![](icelandtry/IMG_1147.JPG)
+    ![](iceland/IMG_1147.JPG)
 
-    ![](icelandtry/IMG_7565.JPG)
+    ![](iceland/IMG_7565.JPG)
 
-    ![](icelandtry/IMG_1149.JPG)
+    ![](iceland/IMG_1149.JPG)
 
-    ![Post hot springs meal](icelandtry/1F4D2005-7F3E-40E7-8F3C-F0079DA89F10.JPG)
+    ![Post hot springs meal](iceland/1F4D2005-7F3E-40E7-8F3C-F0079DA89F10.JPG)
 
 }
 
@@ -86,25 +88,25 @@ saw the Reynisfjara black sand beach.
 
 {
 
-    ![](icelandtry/IMG_1150.JPG)
+    ![](iceland/IMG_1150.JPG)
 
-    ![](icelandtry/IMG_1151.JPG)
+    ![](iceland/IMG_1151.JPG)
 
-    ![](icelandtry/IMG_1152.JPG)
+    ![](iceland/IMG_1152.JPG)
 
-    ![](icelandtry/IMG_1154.JPG)
+    ![](iceland/IMG_1154.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_1155.JPG)
+    ![](iceland/IMG_1155.JPG)
 
-    ![](icelandtry/IMG_1156.JPG)
+    ![](iceland/IMG_1156.JPG)
 
-    ![](icelandtry/IMG_1158.JPG)
+    ![](iceland/IMG_1158.JPG)
 
-    ![](icelandtry/IMG_1160.JPG)
+    ![](iceland/IMG_1160.JPG)
 
 }
 
@@ -113,13 +115,13 @@ of the massive Vatnajökull glacier.
 
 {
 
-    ![](icelandtry/IMG_1164.JPG)
+    ![](iceland/IMG_1164.JPG)
 
-    ![](icelandtry/IMG_1165.JPG)
+    ![](iceland/IMG_1165.JPG)
 
-    ![](icelandtry/IMG_1166.JPG)
+    ![](iceland/IMG_1166.JPG)
 
-    ![](icelandtry/IMG_1171.JPG)
+    ![](iceland/IMG_1171.JPG)
 
 }
 
@@ -127,49 +129,49 @@ We hiked on the ice for several hours and even got to drink water off of the gla
 
 {
 
-    ![](icelandtry/IMG_1173.JPG)
+    ![](iceland/IMG_1173.JPG)
 
-    ![At the bottom](icelandtry/IMG_7583.JPG)
+    ![At the bottom](iceland/IMG_7583.JPG)
 
-    ![Crampons](icelandtry/IMG_7585.JPG)
+    ![Crampons](iceland/IMG_7585.JPG)
 
-    ![](icelandtry/IMG_7590.JPG)
-
-}
-
-{
-
-    ![](icelandtry/IMG_7594.JPG)
-
-    ![](icelandtry/IMG_7595.JPG)
-
-    ![Looking back towards the ocean](icelandtry/IMG_7597.JPG)
-
-    ![](icelandtry/IMG_7600.JPG)
+    ![](iceland/IMG_7590.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_7608.JPG)
+    ![](iceland/IMG_7594.JPG)
 
-    ![](icelandtry/IMG_7609.JPG)
+    ![](iceland/IMG_7595.JPG)
 
-    ![](icelandtry/IMG_7613.JPG)
+    ![Looking back towards the ocean](iceland/IMG_7597.JPG)
 
-    ![](icelandtry/IMG_7633.JPG)
+    ![](iceland/IMG_7600.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_7638.JPG)
+    ![](iceland/IMG_7608.JPG)
 
-    ![](icelandtry/IMG_7640.JPG)
+    ![](iceland/IMG_7609.JPG)
 
-    ![](icelandtry/IMG_7643.JPG)
+    ![](iceland/IMG_7613.JPG)
 
-    ![](icelandtry/IMG_7645.JPG)
+    ![](iceland/IMG_7633.JPG)
+
+}
+
+{
+
+    ![](iceland/IMG_7638.JPG)
+
+    ![](iceland/IMG_7640.JPG)
+
+    ![](iceland/IMG_7643.JPG)
+
+    ![](iceland/IMG_7645.JPG)
 
 }
 
@@ -179,37 +181,37 @@ to Egilsstaðir, finding hikes along the way.
 
 {
 
-    ![](icelandtry/IMG_7660.JPG)
+    ![](iceland/IMG_7660.JPG)
 
-    ![](icelandtry/IMG_7664.JPG)
+    ![](iceland/IMG_7664.JPG)
 
-    ![](icelandtry/IMG_1175.JPG)
+    ![](iceland/IMG_1175.JPG)
 
-    ![](icelandtry/IMG_7684.JPG)
-
-}
-
-{
-
-    ![](icelandtry/IMG_7685.JPG)
-
-    ![](icelandtry/IMG_1189.JPG)
-
-    ![Fjord](icelandtry/IMG_1211.JPG)
-
-    ![](icelandtry/IMG_1216.JPG)
+    ![](iceland/IMG_7684.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_7690.JPG)
+    ![](iceland/IMG_7685.JPG)
 
-    ![](icelandtry/IMG_1217.JPG)
+    ![](iceland/IMG_1189.JPG)
 
-    ![Classic meal](icelandtry/IMG_1223.JPG)
+    ![Fjord](iceland/IMG_1211.JPG)
 
-    ![](icelandtry/IMG_1224.JPG)
+    ![](iceland/IMG_1216.JPG)
+
+}
+
+{
+
+    ![](iceland/IMG_7690.JPG)
+
+    ![](iceland/IMG_1217.JPG)
+
+    ![Classic meal](iceland/IMG_1223.JPG)
+
+    ![](iceland/IMG_1224.JPG)
 
 }
 
@@ -219,25 +221,25 @@ Dettifoss, Europe's most powerful waterfall.
 
 {
 
-    ![](icelandtry/IMG_1233.JPG)
+    ![](iceland/IMG_1233.JPG)
 
-    ![](icelandtry/IMG_1237.JPG)
+    ![](iceland/IMG_1237.JPG)
 
-    ![](icelandtry/IMG_1247.JPG)
+    ![](iceland/IMG_1247.JPG)
 
-    ![The trail](icelandtry/IMG_1249.JPG)
+    ![The trail](iceland/IMG_1249.JPG)
 
 }
 
 {
 
-    ![Chilly](icelandtry/IMG_7707.JPG)
+    ![Chilly](iceland/IMG_7707.JPG)
 
-    ![The falls](icelandtry/IMG_1254.JPG)
+    ![The falls](iceland/IMG_1254.JPG)
 
-    ![](icelandtry/IMG_1257.JPG)
+    ![](iceland/IMG_1257.JPG)
 
-    ![](icelandtry/IMG_7715.JPG)
+    ![](iceland/IMG_7715.JPG)
 
 }
 
@@ -245,37 +247,37 @@ Our second hike of the day was to Ásbyrgi, a glacial horseshoe canyon.  Very ne
 
 {
 
-    ![The car may have gotten stuck here](icelandtry/IMG_1263.JPG)
+    ![The car may have gotten stuck here](iceland/IMG_1263.JPG)
 
-    ![](icelandtry/IMG_1265.JPG)
+    ![](iceland/IMG_1265.JPG)
 
-    ![](icelandtry/IMG_1269.JPG)
+    ![](iceland/IMG_1269.JPG)
 
-    ![](icelandtry/IMG_1271.JPG)
+    ![](iceland/IMG_1271.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_1274.JPG)
+    ![](iceland/IMG_1274.JPG)
 
-    ![](icelandtry/IMG_7723.JPG)
+    ![](iceland/IMG_7723.JPG)
 
-    ![](icelandtry/IMG_7724.JPG)
+    ![](iceland/IMG_7724.JPG)
 
-    ![](icelandtry/IMG_7726.JPG)
+    ![](iceland/IMG_7726.JPG)
 
 }
 
 {  
 
-    ![](icelandtry/IMG_1280.JPG)
+    ![](iceland/IMG_1280.JPG)
 
-    ![](icelandtry/IMG_1284.JPG)
+    ![](iceland/IMG_1284.JPG)
 
-    ![](icelandtry/FE9D7FF3-1953-4C18-8B4D-FAAE23608D77.jpg)
+    ![](iceland/FE9D7FF3-1953-4C18-8B4D-FAAE23608D77.jpg)
 
-    ![Boons betwixt the hikes](icelandtry/IMG_1288.JPG)
+    ![Boons betwixt the hikes](iceland/IMG_1288.JPG)
 
 }
 
@@ -283,13 +285,13 @@ Our third hike was just as cold and to Goðafoss.
 
 {
 
-    ![](icelandtry/IMG_1289.JPG)
+    ![](iceland/IMG_1289.JPG)
 
-    ![](icelandtry/IMG_1292.JPG)
+    ![](iceland/IMG_1292.JPG)
 
-    ![Downtown Akureyri](icelandtry/IMG_1299.JPG)
+    ![Downtown Akureyri](iceland/IMG_1299.JPG)
 
-    ![](icelandtry/IMG_1300.JPG)
+    ![](iceland/IMG_1300.JPG)
 
 }
 
@@ -298,25 +300,25 @@ the way, we stopped for a quick hike in a crater and saw the Settlement Center i
 
 {
 
-    ![](icelandtry/IMG_1312.JPG)
+    ![](iceland/IMG_1312.JPG)
 
-    ![](icelandtry/IMG_7744.JPG)
+    ![](iceland/IMG_7744.JPG)
 
-    ![](icelandtry/DA892F1F-A109-4906-8AF4-F5E31B77B07D.jpg)
+    ![](iceland/DA892F1F-A109-4906-8AF4-F5E31B77B07D.jpg)
 
-    ![](icelandtry/IMG_7748.JPG)
+    ![](iceland/IMG_7748.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_7750.JPG)
+    ![](iceland/IMG_7750.JPG)
 
-    ![](icelandtry/IMG_1314.JPG)
+    ![](iceland/IMG_1314.JPG)
 
-    ![](icelandtry/IMG_1315.JPG)
+    ![](iceland/IMG_1315.JPG)
 
-    ![Gourmet dinner](icelandtry/IMG_7758.JPG)
+    ![Gourmet dinner](iceland/IMG_7758.JPG)
 
 }
 
@@ -325,13 +327,13 @@ the next day.  The weather was intense, and we got to see a humpback whale!
 
 {
 
-    ![View from the balcony at Perlan](icelandtry/IMG_1319.JPG)
+    ![View from the balcony at Perlan](iceland/IMG_1319.JPG)
 
-    ![](icelandtry/IMG_1320.JPG)
+    ![](iceland/IMG_1320.JPG)
 
-    ![](icelandtry/IMG_1321.JPG)
+    ![](iceland/IMG_1321.JPG)
 
-    ![Fit check](icelandtry/IMG_1322.JPG)
+    ![Fit check](iceland/IMG_1322.JPG)
 
 }
 
@@ -342,25 +344,25 @@ some neighborhoods.
 
 {
 
-    ![](icelandtry/IMG_1325.JPG)
+    ![](iceland/IMG_1325.JPG)
 
-    ![](icelandtry/IMG_1329.JPG)
+    ![](iceland/IMG_1329.JPG)
 
-    ![](icelandtry/IMG_1330.JPG)
+    ![](iceland/IMG_1330.JPG)
 
-    ![](icelandtry/IMG_1331.JPG)
+    ![](iceland/IMG_1331.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_1333.JPG)
+    ![](iceland/IMG_1333.JPG)
 
-    ![](icelandtry/IMG_1336.JPG)
+    ![](iceland/IMG_1336.JPG)
 
-    ![](icelandtry/IMG_1341.JPG)
+    ![](iceland/IMG_1341.JPG)
 
-    ![](icelandtry/IMG_1343.JPG)
+    ![](iceland/IMG_1343.JPG)
 
 }
 
@@ -371,36 +373,36 @@ Tarn glacial lake.
 
 {
 
-    ![](icelandtry/IMG_1344.JPG)
+    ![](iceland/IMG_1344.JPG)
 
-    ![](icelandtry/IMG_1351.JPG)
+    ![](iceland/IMG_1351.JPG)
 
-    ![](icelandtry/IMG_1354.JPG)
+    ![](iceland/IMG_1354.JPG)
 
-    ![](icelandtry/IMG_1356.JPG)
+    ![](iceland/IMG_1356.JPG)
 }
 
 {
 
-    ![](icelandtry/IMG_1357.JPG)
+    ![](iceland/IMG_1357.JPG)
 
-    ![](icelandtry/IMG_1360.JPG)
+    ![](iceland/IMG_1360.JPG)
 
-    ![](icelandtry/IMG_1361.JPG)
+    ![](iceland/IMG_1361.JPG)
 
-    ![](icelandtry/IMG_1363.JPG)
+    ![](iceland/IMG_1363.JPG)
 
 }
 
 {
 
-    ![](icelandtry/IMG_1365.JPG)
+    ![](iceland/IMG_1365.JPG)
 
-    ![](icelandtry/IMG_1366.JPG)
+    ![](iceland/IMG_1366.JPG)
 
-    ![](icelandtry/IMG_1367.JPG)
+    ![](iceland/IMG_1367.JPG)
 
-    ![](icelandtry/IMG_1368.JPG)
+    ![](iceland/IMG_1368.JPG)
 
 }
 
@@ -410,23 +412,23 @@ great time.
 
 {
 
-    ![](icelandtry/IMG_1370.JPG)
+    ![](iceland/IMG_1370.JPG)
 
-    ![](icelandtry/IMG_7788.JPG)
+    ![](iceland/IMG_7788.JPG)
 
-    ![](icelandtry/IMG_1371.JPG)
+    ![](iceland/IMG_1371.JPG)
 
-    ![](icelandtry/IMG_1372.JPG)
+    ![](iceland/IMG_1372.JPG)
 
 }
 
 {
 
-    ![Dropping off the rental car](icelandtry/IMG_1374.JPG)
+    ![Dropping off the rental car](iceland/IMG_1374.JPG)
 
-    ![A volcano erupting on the nearby Reykjanes penensula](icelandtry/IMG_1376.JPG)
+    ![A volcano erupting on the nearby Reykjanes penensula](iceland/IMG_1376.JPG)
 
-    ![Goodbye](icelandtry/IMG_1378.JPG)
+    ![Goodbye](iceland/IMG_1378.JPG)
 
 }
 

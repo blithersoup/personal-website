@@ -18,7 +18,7 @@ const Image = chakra(NextImage, {
 const Page = () => {
   const meta = {
     name: "A Week in Iceland",
-    date: "May 18, 2023",
+    date: "May 19, 2024",
     tags: ["photos"],
     id: 5,
     link: "iceland",
@@ -38,6 +38,11 @@ const Page = () => {
         </Center>
         <Center maxW="100%">
           <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
+            May 19, 2024
+          </Text>
+        </Center>
+        <Center maxW="100%">
+          <Text fontSize="xl" pl="3" pr="3" maxWidth={["100%", "80%"]}>
             This spring break, I traveled to Iceland with my friend Hugo. This
             blog is longer than my earlier ones, and in my opinion the pictures
             do not do Iceland justice; each place we saw was breathtaking. After
@@ -46,7 +51,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -57,7 +62,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1115.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1115.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -80,7 +85,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1117.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1117.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -103,7 +108,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1119.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1119.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -131,7 +136,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -142,7 +147,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1121.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1121.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -165,7 +170,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7524.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7524.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -188,7 +193,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1122.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1122.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -209,7 +214,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1126.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1126.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -228,7 +233,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -239,7 +244,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1128.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1128.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -260,7 +265,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1130.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1130.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -281,7 +286,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1131.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1131.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -302,7 +307,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7542.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7542.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -327,7 +332,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -338,7 +343,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1139.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1139.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -359,7 +364,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1144.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1144.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -380,7 +385,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1145.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1145.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -401,7 +406,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7563.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7563.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -428,7 +433,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -439,7 +444,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1147.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1147.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -460,7 +465,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7565.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7565.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -481,7 +486,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1149.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1149.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -502,7 +507,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/1F4D2005-7F3E-40E7-8F3C-F0079DA89F10.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/1F4D2005-7F3E-40E7-8F3C-F0079DA89F10.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -529,7 +534,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -540,7 +545,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1150.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1150.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -561,7 +566,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1151.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1151.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -582,7 +587,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1152.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1152.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -603,7 +608,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1154.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1154.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -622,7 +627,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -633,7 +638,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1155.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1155.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -654,7 +659,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1156.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1156.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -675,7 +680,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1158.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1158.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -696,7 +701,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1160.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1160.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -721,7 +726,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -732,7 +737,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1164.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1164.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -753,7 +758,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1165.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1165.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -774,7 +779,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1166.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1166.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -795,7 +800,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1171.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1171.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -820,7 +825,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -831,7 +836,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1173.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1173.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -852,7 +857,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7583.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7583.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -875,7 +880,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7585.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7585.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -898,7 +903,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7590.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7590.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -917,7 +922,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -928,7 +933,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7594.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7594.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -949,7 +954,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7595.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7595.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -970,7 +975,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7597.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7597.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -993,7 +998,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7600.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7600.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1012,7 +1017,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1023,7 +1028,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7608.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7608.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1044,7 +1049,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7609.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7609.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1065,7 +1070,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7613.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7613.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1086,7 +1091,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7633.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7633.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1105,7 +1110,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1116,7 +1121,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7638.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7638.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1137,7 +1142,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7640.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7640.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1158,7 +1163,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7643.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7643.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1179,7 +1184,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7645.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7645.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1205,7 +1210,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1216,7 +1221,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7660.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7660.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1237,7 +1242,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7664.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7664.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1258,7 +1263,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1175.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1175.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1279,7 +1284,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7684.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7684.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1298,7 +1303,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1309,7 +1314,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7685.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7685.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1330,7 +1335,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1189.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1189.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1351,7 +1356,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1211.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1211.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1374,7 +1379,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1216.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1216.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1393,7 +1398,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1404,7 +1409,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7690.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7690.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1425,7 +1430,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1217.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1217.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1446,7 +1451,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1223.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1223.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1469,7 +1474,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1224.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1224.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1495,7 +1500,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1506,7 +1511,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1233.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1233.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1527,7 +1532,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1237.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1237.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1548,7 +1553,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1247.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1247.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1569,7 +1574,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1249.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1249.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1590,7 +1595,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1601,7 +1606,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7707.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7707.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1624,7 +1629,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1254.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1254.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1647,7 +1652,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1257.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1257.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1668,7 +1673,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7715.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7715.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1693,7 +1698,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1704,7 +1709,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1263.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1263.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1727,7 +1732,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1265.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1265.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1748,7 +1753,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1269.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1269.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1769,100 +1774,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1271.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1274.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7723.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7724.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7726.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1271.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1881,7 +1793,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1892,7 +1804,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1280.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1274.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1913,7 +1825,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1284.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7723.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1934,7 +1846,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/FE9D7FF3-1953-4C18-8B4D-FAAE23608D77.jpg`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7724.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1955,7 +1867,100 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1288.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7726.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1280.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1284.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/FE9D7FF3-1953-4C18-8B4D-FAAE23608D77.jpg`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1288.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -1981,7 +1986,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1992,7 +1997,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1289.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1289.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2013,7 +2018,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1292.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1292.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2034,7 +2039,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1299.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1299.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2057,7 +2062,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1300.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1300.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2083,7 +2088,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2094,7 +2099,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1312.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1312.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2115,7 +2120,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7744.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7744.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2136,7 +2141,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/DA892F1F-A109-4906-8AF4-F5E31B77B07D.jpg`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/DA892F1F-A109-4906-8AF4-F5E31B77B07D.jpg`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2157,7 +2162,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7748.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7748.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2176,7 +2181,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2187,7 +2192,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7750.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7750.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2208,7 +2213,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1314.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1314.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2229,7 +2234,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1315.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1315.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2250,7 +2255,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7758.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7758.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2278,7 +2283,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2289,7 +2294,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1319.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1319.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2312,7 +2317,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1320.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1320.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2333,7 +2338,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1321.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1321.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2354,7 +2359,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1322.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1322.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2383,7 +2388,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2394,7 +2399,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1325.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1325.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2415,7 +2420,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1329.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1329.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2436,7 +2441,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1330.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1330.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2457,7 +2462,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1331.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1331.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2476,7 +2481,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2487,7 +2492,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1333.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1333.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2508,7 +2513,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1336.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1336.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2529,7 +2534,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1341.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1341.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2550,7 +2555,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1343.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1343.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2577,7 +2582,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2588,7 +2593,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1344.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1344.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2609,7 +2614,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1351.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1351.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2630,7 +2635,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1354.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1354.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2651,100 +2656,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1356.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-            </Stack>
-          </Center>
-          <Center maxW="100%" pt="5">
-            <Text fontSize="md"></Text>
-          </Center>
-        </div>
-        <div>
-          <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1357.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1360.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1361.JPG`}
-                      alt="Loading image"
-                      objectFit="cover"
-                      {...{ layout: "fill" }}
-                    />
-                  </Box>
-                </Center>
-                <Center maxW="100%" pt="3">
-                  <Text fontSize="md" pl="5" pr="5"></Text>
-                </Center>
-              </div>
-              <div>
-                <Center maxW="100%" pt="5">
-                  <Box
-                    boxSize="md"
-                    position="relative"
-                    display="block"
-                    pl="2"
-                    pr="2"
-                  >
-                    <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1363.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1356.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2763,7 +2675,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2774,7 +2686,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1365.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1357.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2795,7 +2707,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1366.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1360.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2816,7 +2728,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1367.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1361.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2837,7 +2749,100 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1368.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1363.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+            </Stack>
+          </Center>
+          <Center maxW="100%" pt="5">
+            <Text fontSize="md"></Text>
+          </Center>
+        </div>
+        <div>
+          <Center maxW="100%">
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1365.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1366.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1367.JPG`}
+                      alt="Loading image"
+                      objectFit="cover"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxW="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxW="100%" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1368.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2863,7 +2868,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2874,7 +2879,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1370.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1370.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2895,7 +2900,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_7788.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_7788.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2916,7 +2921,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1371.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1371.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2937,7 +2942,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1372.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1372.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2956,7 +2961,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -2967,7 +2972,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1374.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1374.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -2990,7 +2995,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1376.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1376.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}
@@ -3013,7 +3018,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/icelandtry/IMG_1378.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/iceland/IMG_1378.JPG`}
                       alt="Loading image"
                       objectFit="cover"
                       {...{ layout: "fill" }}

@@ -56,7 +56,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -117,7 +117,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -193,7 +193,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -277,7 +277,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -353,7 +353,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -450,7 +450,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -522,7 +522,7 @@ const Page = () => {
         </div>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -606,7 +606,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -691,7 +691,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -755,7 +755,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -811,7 +811,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -901,7 +901,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -980,7 +980,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
@@ -1057,7 +1057,7 @@ const Page = () => {
         </Center>
         <div>
           <Center maxW="100%">
-            <Stack spacing="25px" direction={["column", "row"]}>
+            <Stack spacing="25px" direction={{ base: "column", xl: "row" }}>
               <div>
                 <Center maxW="100%" pt="5">
                   <Box
