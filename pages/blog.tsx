@@ -93,14 +93,17 @@ export default BlogHomepage
 
 
 export const getStaticProps: GetStaticProps = async () => {
-  const dir = readdirSync("blogs/")
+  //const dir = readdirSync("blog")
   let blogs: any = []
 
-  for (const name of dir) {
-    
-    const text: string = readFileSync(`blogs/${name}`).toString()
-    const style = JSON.parse(text.match("\{[^}]+\}")[0])
-    blogs.push(style);
+  for (const dir of ["blogs/old", "blogs/new-format"]) {
+
+    for (const name of readdirSync(dir)) {
+      
+      const text: string = readFileSync(`${dir}/${name}`).toString()
+      const style = JSON.parse(text.match("\{[^}]+\}")[0])
+      blogs.push(style);
+    }
   }
 
   blogs.sort((a: any, b: any) => { return b.id - a.id })
