@@ -20,7 +20,7 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
     ![](yacutan/IMG_0001.JPG)
 
-    ![](yacutan/fc3c5844-f6bb-409a-9d6b-e0d2f8ba7490.jpg)
+    ![](yacutan/IMG_0003.jpg)
 
     ![](yacutan/IMG_6304.JPG)
 
@@ -44,11 +44,11 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
 {
 
-    ![](yacutan/GPTempDownload7.jpg)
+    ![](yacutan/IMG_0007.jpg)
 
-    ![](yacutan/GPTempDownload12.jpg)
+    ![](yacutan/IMG_0012.jpg)
 
-    ![](yacutan/GPTempDownload9.jpg)
+    ![](yacutan/IMG_0009.jpg)
 
 }
 
@@ -66,7 +66,7 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
 {
 
-    ![](yacutan/GPTempDownload13.jpg)
+    ![](yacutan/IMG_0013.jpg)
 
     ![](yacutan/IMG_0002.JPG)
 
@@ -103,7 +103,7 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
 {
 
-    ![](yacutan/GPTempDownload19.jpg)
+    ![](yacutan/IMG_0019.jpg)
 
 }
 
