@@ -9,9 +9,9 @@ function buildparser {
 }
 
 function writefile {
-  NEWFILE=$(readlink -f ../pages/blog/${1%.txt}.tsx);
+  NEWFILE=$(readlink -f ../../pages/blog/${1%.txt}.tsx);
   FULLFILE=$(readlink -f $1);
-  cat ../components/image.tsx ../fragments/blogheader.txt <(node ../dist/parser.js $FULLFILE) ../fragments/blogfooter.txt > $NEWFILE;
+  cat ../../components/image.tsx ../../fragments/blogheader.txt <(node ../../dist/parser.js $FULLFILE) ../../fragments/blogfooter.txt > $NEWFILE;
   OUT=$(npm run --silent prettier $NEWFILE);
   echo $OUT > $NEWFILE;
 }
@@ -23,7 +23,7 @@ if [[ $1 == "--refresh-parser" ]]; then
   time (buildparser)
 
 else 
-  cd blogs
+  cd blogs/new-format
   
   if [[ $1 == "" ]]; then
     echo "\nCreating pages===================="
