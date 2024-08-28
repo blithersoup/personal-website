@@ -56,9 +56,9 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
 {
 
-    ![](yacutan/IMG_6376.JPG)
-
     ![](yacutan/IMG_6387.JPG)
+
+    ![](yacutan/IMG_0021.JPG)
 
 }
 
@@ -104,6 +104,8 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 {
 
     ![](yacutan/IMG_0019.jpg)
+
+    ![](yacutan/IMG_6477.JPG)
 
 }
 
@@ -183,9 +185,9 @@ Here are some pictures from a trip I took earlier this summer with my friend Emi
 
 {
 
-    ![](yacutan/IMG_0156.jpg)
-
     ![](yacutan/IMG_6514.JPG)
+
+    ![](yacutan/IMG_0156.jpg)
 
 }
 

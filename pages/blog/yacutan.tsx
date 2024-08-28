@@ -345,7 +345,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6376.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6387.JPG`}
                       alt="Loading image"
                       objectFit="contain"
                       {...{ layout: "fill" }}
@@ -366,7 +366,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6387.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_0021.JPG`}
                       alt="Loading image"
                       objectFit="contain"
                       {...{ layout: "fill" }}
@@ -649,6 +649,27 @@ const Page = () => {
                   >
                     <Image
                       src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_0019.jpg`}
+                      alt="Loading image"
+                      objectFit="contain"
+                      {...{ layout: "fill" }}
+                    />
+                  </Box>
+                </Center>
+                <Center maxWidth="100%" pt="3">
+                  <Text fontSize="md" pl="5" pr="5"></Text>
+                </Center>
+              </div>
+              <div>
+                <Center maxWidth="100vw" pt="5">
+                  <Box
+                    boxSize="md"
+                    position="relative"
+                    display="block"
+                    pl="2"
+                    pr="2"
+                  >
+                    <Image
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6477.JPG`}
                       alt="Loading image"
                       objectFit="contain"
                       {...{ layout: "fill" }}
@@ -1209,7 +1230,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_0156.jpg`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6514.JPG`}
                       alt="Loading image"
                       objectFit="contain"
                       {...{ layout: "fill" }}
@@ -1230,7 +1251,7 @@ const Page = () => {
                     pr="2"
                   >
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_6514.JPG`}
+                      src={`${process.env.NEXT_PUBLIC_IMG_HOST}/yacutan/IMG_0156.jpg`}
                       alt="Loading image"
                       objectFit="contain"
                       {...{ layout: "fill" }}
